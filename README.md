@@ -15,7 +15,7 @@ The behaviors if you deviate from the prescribed file and folder formats are unk
 
 Neutralising antibodies in Spike mediated SARS-CoV-2 adaptation (2021), 
 Kemp SA, Collier DA, Datir R, Ferreira IATM , Gayed S, Jahun A, Hosmillo M, Rees-Spear C, Mlcochova P, Ines Ushiro Lumb, David J Roberts, Anita Chandra, Temperton N, The CITIID-NIHR BioResource COVID-19 Collaboration, The COVID-19 Genomics UK (COG-UK) Consortium, Sharrocks K, Blane E, Briggs JAG, van Gils MJ11, Smith KGC, Bradley JR, Smith C, Doffinger R, Ceron-Gutierrez L, Barcenas-Morales G, Pollock DD, Goldstein RA, Smielewska A, Skittrall JP, Gouliouris T, Goodfellow IG, Gkrania-Klotsas E, Illingworth CJR, McCoy LE, Gupta RK,
-Currently in review, and previous version on medRxiv 
+Currently in review, and previous version on medRxiv https://www.medrxiv.org/content/10.1101/2020.12.05.20241927v3
 
 
 
