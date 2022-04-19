@@ -1,5 +1,0 @@
-runorient = right			# control the orientation of analysis; just left or right for now
-qnotkmode = t				# control run so don't repeat creation of qfilters
-bigoutput = f				# don't output big kcount and kandq files if we don't need them
-limitseqs = 50				# just limit the number of seqs to look at for testing
-qminprint = 1				# don’t print qmers less than this to kcount file
