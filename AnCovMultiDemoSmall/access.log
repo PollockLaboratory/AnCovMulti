@@ -1,0 +1,6566 @@
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 20, 2020 
+
+The program was run on 2020-12-28 08:36:39.408043 -0700 MST m=+0.000235405
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 11:46:34.002424 -0700 MST m=+0.000168322
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 11:56:06.281398 -0700 MST m=+0.000247148
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 11:56:19.948195 -0700 MST m=+0.000226191
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 12:01:37.567019 -0700 MST m=+0.000228427
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 12:03:22.126867 -0700 MST m=+0.000199706
+
+Status after Program Completion
+
+	integer parameters
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+
+oolean parameters
+qnotkmode = false
+printNs = false
+recordseq = false
+dofilter = false
+
+	string parameters
+kinfile = WuhanHu1_kpos.xls
+right = right
+primeroutend = _primers.txt
+outputdir = ACmulti_output/
+refdir = references/
+filterdir = qfilters/
+filetype = fasta
+progstart = Mon Dec 28 12:03:22 2020
+left = left
+qfiletype = fastq
+kcountdir = kcounts/
+runorient = right
+seqext = fq
+seqdir = sequences/
+seqfile = WuhanHu1
+pcountdir = pcounts/
+prefilter = qfilter_
+
+	file parameters
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+
+	number parameters
+
+	raw parameters
+qfiletype = fastq
+kandqdir = kandq/
+doqueryq = t
+burnin = 5000
+kcountdir = kcounts/
+dorevcomp = T
+outputdir = ACmulti_output/
+primeroutend = _primers.txt
+runorient = right
+filterdir = qfilters/
+loudness = 2
+kpositionsfile = kpos.xls
+mincount = 1
+linelimit = 500000
+qminprint = 1
+prefilter = qfilter_
+kinfile = WuhanHu1_kpos.xls
+minline = 0
+klen = 14
+maxlines = 8000000
+seqdir = sequences/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+printmode = 1
+kcountfile = kcounts
+kmaxoligo = 8
+getcity = true
+seed = 248597
+qnotkdir = qnotk/
+left = left
+right = right
+qcountfile = qcounts
+limitseqs = 50
+pcountdir = pcounts/
+readcounts = readcounts
+qnotk = qnotk
+kminprint = 1
+recordseq = 0
+printNs = false
+breakearly = 1
+doquery = f
+record_loudness = 4
+runmode = 1
+filetype = fasta
+dofilter = false
+minseqlen = 0
+refdir = references/
+chrommapfile = chrommap.xls
+kandq = kandq
+seqfile = WuhanHu1
+kmaxprint = 100000
+sample = 100
+qnotkmode = f
+seqext = fq
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 12:03:53.954183 -0700 MST m=+31.828672594
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 12:31:18.247084 -0700 MST m=+0.000268960
+
+Status after Program Completion
+
+	integer parameters
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+
+oolean parameters
+qnotkmode = true
+printNs = false
+recordseq = false
+dofilter = false
+
+	string parameters
+qfiletype = fastq
+pcountdir = pcounts/
+progstart = Mon Dec 28 12:31:18 2020
+outputdir = ACmulti_output/
+kinfile = WuhanHu1_kpos.xls
+right = right
+seqext = fq
+refdir = references/
+kcountdir = kcounts/
+seqfile = WuhanHu1
+filterdir = qfilters/
+primeroutend = _primers.txt
+filetype = fasta
+prefilter = qfilter_
+runorient = right
+seqdir = sequences/
+left = left
+
+	file parameters
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+
+	number parameters
+
+	raw parameters
+kmaxoligo = 8
+seed = 248597
+kandqdir = kandq/
+doquery = f
+qnotk = qnotk
+dofilter = false
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+dorevcomp = T
+kcountfile = kcounts
+readcounts = readcounts
+burnin = 5000
+qminprint = 1
+prefilter = qfilter_
+filetype = fasta
+qnotkdir = qnotk/
+breakearly = 1
+refdir = references/
+runorient = right
+seqdir = sequences/
+seqext = fq
+left = left
+kandq = kandq
+record_loudness = 4
+recordseq = 0
+kpositionsfile = kpos.xls
+sample = 100
+filterdir = qfilters/
+pcountdir = pcounts/
+runmode = 1
+kinfile = WuhanHu1_kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qcountfile = qcounts
+doqueryq = t
+seqfile = WuhanHu1
+maxlines = 8000000
+mincount = 1
+chrommapfile = chrommap.xls
+printmode = 1
+linelimit = 500000
+printNs = false
+qnotkmode = t
+loudness = 2
+minseqlen = 0
+kmaxprint = 100000
+qfiletype = fastq
+getcity = true
+right = right
+kminprint = 1
+klen = 14
+minline = 0
+limitseqs = 50
+primeroutend = _primers.txt
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 12:31:33.890061 -0700 MST m=+15.643816942
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 12:31:57.00026 -0700 MST m=+0.000202591
+
+Status after Program Completion
+
+	integer parameters
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+qnotkmode = true
+
+	string parameters
+refdir = references/
+kinfile = WuhanHu1_kpos.xls
+left = left
+right = right
+kcountdir = kcounts/
+progstart = Mon Dec 28 12:31:57 2020
+seqdir = sequences/
+outputdir = ACmulti_output/
+filetype = fasta
+qfiletype = fastq
+seqext = fq
+seqfile = WuhanHu1
+primeroutend = _primers.txt
+filterdir = qfilters/
+pcountdir = pcounts/
+prefilter = qfilter_
+runorient = right
+
+	file parameters
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+
+	number parameters
+
+	raw parameters
+kminprint = 1
+kcountfile = kcounts
+kandqdir = kandq/
+loudness = 2
+doquery = f
+minseqlen = 0
+recordseq = 0
+kmaxoligo = 8
+getcity = true
+kandq = kandq
+doqueryq = t
+qfiletype = fastq
+kpositionsfile = kpos.xls
+burnin = 5000
+right = right
+kcountdir = kcounts/
+dofilter = false
+limitseqs = 50
+pcountdir = pcounts/
+klen = 14
+qnotkdir = qnotk/
+printmode = 1
+filetype = fasta
+seed = 248597
+left = left
+qcountfile = qcounts
+kinfile = WuhanHu1_kpos.xls
+qnotk = qnotk
+chrommapfile = chrommap.xls
+kmaxprint = 100000
+qnotkmode = t
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+seqfile = WuhanHu1
+dorevcomp = T
+maxlines = 8000000
+readcounts = readcounts
+breakearly = 1
+filterdir = qfilters/
+outputdir = ACmulti_output/
+printNs = false
+runorient = right
+primeroutend = _primers.txt
+record_loudness = 4
+seqext = fq
+minline = 0
+qminprint = 1
+prefilter = qfilter_
+runmode = 1
+mincount = 1
+seqdir = sequences/
+refdir = references/
+linelimit = 500000
+sample = 100
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 12:32:12.674169 -0700 MST m=+15.674682760
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 12:45:09.494097 -0700 MST m=+0.000237206
+
+Status after Program Completion
+
+	integer parameters
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+qnotkmode = true
+
+	string parameters
+primeroutend = _primers.txt
+runorient = right
+kcountdir = kcounts/
+progstart = Mon Dec 28 12:45:09 2020
+refdir = references/
+kinfile = WuhanHu1_kpos.xls
+left = left
+filterdir = qfilters/
+filetype = fasta
+seqdir = sequences/
+outputdir = ACmulti_output/
+qfiletype = fastq
+pcountdir = pcounts/
+prefilter = qfilter_
+seqext = fq
+seqfile = WuhanHu1
+right = right
+
+	file parameters
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+
+	number parameters
+
+	raw parameters
+qminprint = 1
+left = left
+loudness = 2
+recordseq = 0
+filetype = fasta
+qfiletype = fastq
+chrommapfile = chrommap.xls
+burnin = 5000
+kcountdir = kcounts/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+seqfile = WuhanHu1
+outputdir = ACmulti_output/
+seqext = fq
+qcountfile = qcounts
+seed = 248597
+kandqdir = kandq/
+right = right
+kandq = kandq
+mincount = 1
+limitseqs = 50
+printmode = 1
+minline = 0
+linelimit = 500000
+printNs = false
+primeroutend = _primers.txt
+kmaxprint = 100000
+dorevcomp = T
+doquery = f
+klen = 14
+minseqlen = 0
+qnotkdir = qnotk/
+readcounts = readcounts
+kmaxoligo = 8
+filterdir = qfilters/
+record_loudness = 4
+kminprint = 1
+dofilter = false
+runorient = right
+pcountdir = pcounts/
+kcountfile = kcounts
+breakearly = 1
+prefilter = qfilter_
+doqueryq = t
+sample = 100
+qnotk = qnotk
+kinfile = WuhanHu1_kpos.xls
+kpositionsfile = kpos.xls
+getcity = true
+seqdir = sequences/
+runmode = 1
+bigoutput = f
+qnotkmode = t
+refdir = references/
+maxlines = 8000000
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 12:45:25.274558 -0700 MST m=+15.781285435
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 12:47:21.174361 -0700 MST m=+0.000259291
+
+Status after Program Completion
+
+	integer parameters
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+qnotkmode = true
+
+	string parameters
+filterdir = qfilters/
+outputdir = ACmulti_output/
+refdir = references/
+left = left
+prefilter = qfilter_
+seqdir = sequences/
+right = right
+filetype = fasta
+qfiletype = fastq
+pcountdir = pcounts/
+progstart = Mon Dec 28 12:47:21 2020
+seqext = fq
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+primeroutend = _primers.txt
+kcountdir = kcounts/
+runorient = right
+
+	file parameters
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+
+	number parameters
+
+	raw parameters
+kcountfile = kcounts
+qnotk = qnotk
+chrommapfile = chrommap.xls
+linelimit = 500000
+refdir = references/
+left = left
+filetype = fasta
+right = right
+dofilter = false
+pcountdir = pcounts/
+seqext = fq
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+doquery = f
+kinfile = WuhanHu1_kpos.xls
+kandq = kandq
+maxlines = 8000000
+readcounts = readcounts
+dorevcomp = T
+klen = 14
+mincount = 1
+kandqdir = kandq/
+bigoutput = f
+runmode = 1
+outputdir = ACmulti_output/
+qnotkdir = qnotk/
+qfiletype = fastq
+printmode = 1
+qminprint = 1
+seqdir = sequences/
+kcountdir = kcounts/
+kpositionsfile = kpos.xls
+primeroutend = _primers.txt
+kmaxoligo = 8
+minseqlen = 0
+minline = 0
+kmaxprint = 100000
+prefilter = qfilter_
+kminprint = 1
+getcity = true
+runorient = right
+filterdir = qfilters/
+qnotkmode = t
+loudness = 2
+printNs = false
+sample = 100
+seed = 248597
+doqueryq = t
+record_loudness = 4
+seqfile = WuhanHu1
+recordseq = 0
+burnin = 5000
+breakearly = 1
+limitseqs = 50
+qcountfile = qcounts
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 12:47:36.837379 -0700 MST m=+15.663860094
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 12:50:27.324933 -0700 MST m=+0.000183749
+
+Status after Program Completion
+
+	integer parameters
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+refdir = references/
+kcountdir = kcounts/
+pcountdir = pcounts/
+left = left
+primeroutend = _primers.txt
+filterdir = qfilters/
+filetype = fasta
+seqdir = sequences/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+outputdir = ACmulti_output/
+qfiletype = fastq
+runorient = right
+prefilter = qfilter_
+progstart = Mon Dec 28 12:50:27 2020
+seqext = fq
+right = right
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+kandqdir = kandq/
+qcountfile = qcounts
+klen = 14
+seed = 248597
+bigoutput = f
+qnotkmode = t
+record_loudness = 4
+printNs = false
+linelimit = 500000
+pcountdir = pcounts/
+kpositionsfile = kpos.xls
+minline = 0
+burnin = 5000
+filterdir = qfilters/
+doquery = f
+mincount = 1
+minseqlen = 0
+recordseq = 0
+outputdir = ACmulti_output/
+left = left
+filetype = fasta
+kcountfile = kcounts
+kmaxoligo = 8
+prefilter = qfilter_
+dorevcomp = T
+runmode = 1
+qnotk = qnotk
+runorient = right
+primeroutend = _primers.txt
+right = right
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+doqueryq = t
+loudness = 2
+chrommapfile = chrommap.xls
+refdir = references/
+kminprint = 1
+kmaxprint = 100000
+limitseqs = 50
+qnotkdir = qnotk/
+kcountdir = kcounts/
+readcounts = readcounts
+printmode = 1
+qfiletype = fastq
+qminprint = 1
+getcity = true
+sample = 100
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+maxlines = 8000000
+kandq = kandq
+seqfile = WuhanHu1
+seqext = fq
+dofilter = false
+breakearly = 1
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 12:50:27.799049 -0700 MST m=+0.474317248
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 12:54:38.36032 -0700 MST m=+0.000166758
+
+Status after Program Completion
+
+	integer parameters
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+
+oolean parameters
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+
+	string parameters
+seqfile = WuhanHu1
+right = right
+outputdir = ACmulti_output/
+runorient = right
+seqext = fq
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+left = left
+filetype = fasta
+qfiletype = fastq
+kcountdir = kcounts/
+refdir = references/
+primeroutend = _primers.txt
+filterdir = qfilters/
+pcountdir = pcounts/
+prefilter = qfilter_
+progstart = Mon Dec 28 12:54:38 2020
+
+	file parameters
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+
+	number parameters
+
+	raw parameters
+kminprint = 1
+readcounts = readcounts
+doquery = f
+printmode = 1
+maxlines = 8000000
+qnotkdir = qnotk/
+primeroutend = _primers.txt
+dorevcomp = T
+seqdir = sequences/
+refdir = references/
+kandq = kandq
+doqueryq = t
+runmode = 1
+qfiletype = fastq
+kmaxoligo = 8
+sample = 100
+runorient = right
+left = left
+filterdir = qfilters/
+kandqdir = kandq/
+kinfile = WuhanHu1_kpos.xls
+burnin = 5000
+kcountdir = kcounts/
+right = right
+bigoutput = f
+kpositionsfile = kpos.xls
+recordseq = 0
+klen = 14
+qnotk = qnotk
+qcountfile = qcounts
+printNs = false
+qminprint = 1
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+kcountfile = kcounts
+kmaxprint = 100000
+pcountdir = pcounts/
+chrommapfile = chrommap.xls
+seed = 248597
+seqfile = WuhanHu1
+minline = 0
+linelimit = 500000
+outputdir = ACmulti_output/
+prefilter = qfilter_
+dofilter = false
+getcity = true
+qnotkmode = t
+seqext = fq
+loudness = 2
+mincount = 1
+limitseqs = 50
+record_loudness = 4
+filetype = fasta
+minseqlen = 0
+breakearly = 1
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 12:54:38.856746 -0700 MST m=+0.496611498
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 13:03:10.864862 -0700 MST m=+0.000148135
+
+Status after Program Completion
+
+	integer parameters
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+
+oolean parameters
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+
+	string parameters
+progstart = Mon Dec 28 13:03:10 2020
+seqext = fq
+filterdir = qfilters/
+filetype = fasta
+qfiletype = fastq
+kcountdir = kcounts/
+pcountdir = pcounts/
+runorient = right
+seqdir = sequences/
+left = left
+right = right
+primeroutend = _primers.txt
+refdir = references/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+outputdir = ACmulti_output/
+prefilter = qfilter_
+
+	file parameters
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+
+	number parameters
+
+	raw parameters
+getcity = true
+kandqdir = kandq/
+kcountdir = kcounts/
+right = right
+qfiletype = fastq
+kcountfile = kcounts
+pcountdir = pcounts/
+dorevcomp = T
+record_loudness = 4
+kminprint = 1
+chrommapfile = chrommap.xls
+seed = 248597
+outputdir = ACmulti_output/
+qcountfile = qcounts
+linelimit = 500000
+klen = 14
+prefilter = qfilter_
+kandq = kandq
+readcounts = readcounts
+printNs = false
+seqdir = sequences/
+refdir = references/
+kmaxprint = 100000
+dofilter = false
+minline = 0
+mincount = 1
+doqueryq = t
+doquery = f
+qnotk = qnotk
+qnotkmode = t
+bigoutput = f
+printmode = 1
+filterdir = qfilters/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+seqfile = WuhanHu1
+burnin = 5000
+kpositionsfile = kpos.xls
+kmaxoligo = 8
+qnotkdir = qnotk/
+loudness = 2
+runmode = 1
+limitseqs = 50
+qminprint = 1
+runorient = right
+filetype = fasta
+breakearly = 1
+sample = 100
+seqext = fq
+primeroutend = _primers.txt
+minseqlen = 0
+recordseq = 0
+maxlines = 8000000
+left = left
+kinfile = WuhanHu1_kpos.xls
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 13:03:11.350982 -0700 MST m=+0.486285450
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 13:07:13.1291 -0700 MST m=+0.000166665
+
+Status after Program Completion
+
+	integer parameters
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+right = right
+outputdir = ACmulti_output/
+seqfile = WuhanHu1
+left = left
+filterdir = qfilters/
+kcountdir = kcounts/
+runorient = right
+seqext = fq
+seqdir = sequences/
+refdir = references/
+primeroutend = _primers.txt
+qfiletype = fastq
+pcountdir = pcounts/
+progstart = Mon Dec 28 13:07:13 2020
+filetype = fasta
+prefilter = qfilter_
+kinfile = WuhanHu1_kpos.xls
+
+	file parameters
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+
+	number parameters
+
+	raw parameters
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+printmode = 1
+seed = 248597
+seqext = fq
+primeroutend = _primers.txt
+left = left
+kpositionsfile = kpos.xls
+mincount = 1
+bigoutput = f
+kmaxoligo = 8
+breakearly = 1
+outputdir = ACmulti_output/
+runmode = 1
+dofilter = false
+limitseqs = 50
+qnotkmode = t
+right = right
+chrommapfile = chrommap.xls
+qminprint = 1
+kandq = kandq
+kmaxprint = 100000
+qnotkdir = qnotk/
+filetype = fasta
+qfiletype = fastq
+printNs = false
+sample = 100
+runorient = right
+readcounts = readcounts
+record_loudness = 4
+getcity = true
+qcountfile = qcounts
+recordseq = 0
+linelimit = 500000
+refdir = references/
+kandqdir = kandq/
+doqueryq = t
+minline = 0
+pcountdir = pcounts/
+seqdir = sequences/
+minseqlen = 0
+burnin = 5000
+filterdir = qfilters/
+dorevcomp = T
+doquery = f
+qnotk = qnotk
+klen = 14
+maxlines = 8000000
+kcountdir = kcounts/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+loudness = 2
+kminprint = 1
+prefilter = qfilter_
+kcountfile = kcounts
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 13:07:13.620373 -0700 MST m=+0.491457745
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 13:33:00.03288 -0700 MST m=+0.000170633
+
+Status after Program Completion
+
+	integer parameters
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+
+oolean parameters
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+
+	string parameters
+kinfile = WuhanHu1_kpos.xls
+right = right
+runorient = right
+outputdir = ACmulti_output/
+pcountdir = pcounts/
+seqext = fq
+refdir = references/
+filetype = fasta
+filterdir = qfilters/
+qfiletype = fastq
+kcountdir = kcounts/
+progstart = Mon Dec 28 13:33:00 2020
+seqdir = sequences/
+seqfile = WuhanHu1
+left = left
+primeroutend = _primers.txt
+prefilter = qfilter_
+
+	file parameters
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+
+	number parameters
+
+	raw parameters
+limitseqs = 50
+doquery = f
+filetype = fasta
+kandqdir = kandq/
+prefilter = qfilter_
+runorient = right
+seqext = fq
+loudness = 2
+kinfile = WuhanHu1_kpos.xls
+printNs = false
+primeroutend = _primers.txt
+bigoutput = f
+maxlines = 8000000
+pcountdir = pcounts/
+qfiletype = fastq
+qnotk = qnotk
+recordseq = 0
+getcity = true
+breakearly = 1
+kandq = kandq
+readcounts = readcounts
+printmode = 1
+seqfile = WuhanHu1
+burnin = 5000
+qnotkmode = t
+doqueryq = t
+chrommapfile = chrommap.xls
+kmaxoligo = 8
+record_loudness = 4
+kmaxprint = 100000
+linelimit = 500000
+sample = 100
+qminprint = 1
+klen = 14
+outputdir = ACmulti_output/
+left = left
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+kcountfile = kcounts
+kminprint = 1
+minline = 0
+seqdir = sequences/
+refdir = references/
+mincount = 1
+qnotkdir = qnotk/
+kcountdir = kcounts/
+right = right
+runmode = 1
+kpositionsfile = kpos.xls
+dofilter = false
+minseqlen = 0
+filterdir = qfilters/
+seed = 248597
+qcountfile = qcounts
+dorevcomp = T
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 13:33:00.518521 -0700 MST m=+0.485830069
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 13:34:49.858682 -0700 MST m=+0.000177571
+
+Status after Program Completion
+
+	integer parameters
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+
+oolean parameters
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+
+	string parameters
+kcountdir = kcounts/
+progstart = Mon Dec 28 13:34:49 2020
+seqdir = sequences/
+seqfile = WuhanHu1
+right = right
+left = left
+filetype = fasta
+prefilter = qfilter_
+runorient = right
+refdir = references/
+primeroutend = _primers.txt
+filterdir = qfilters/
+outputdir = ACmulti_output/
+seqext = fq
+kinfile = WuhanHu1_kpos.xls
+qfiletype = fastq
+pcountdir = pcounts/
+
+	file parameters
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+
+	number parameters
+
+	raw parameters
+loudness = 2
+kcountfile = kcounts
+prefilter = qfilter_
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+recordseq = 0
+qminprint = 1
+outputdir = ACmulti_output/
+chrommapfile = chrommap.xls
+getcity = true
+limitseqs = 50
+seqfile = WuhanHu1
+sample = 100
+seed = 248597
+right = right
+doqueryq = t
+klen = 14
+filterdir = qfilters/
+kcountdir = kcounts/
+maxlines = 8000000
+minseqlen = 0
+primeroutend = _primers.txt
+kandq = kandq
+printmode = 1
+qfiletype = fastq
+minline = 0
+runorient = right
+linelimit = 500000
+seqdir = sequences/
+refdir = references/
+doquery = f
+record_loudness = 4
+burnin = 5000
+qnotkdir = qnotk/
+runmode = 1
+dofilter = false
+qnotk = qnotk
+kpositionsfile = kpos.xls
+kmaxprint = 100000
+kandqdir = kandq/
+left = left
+kminprint = 1
+qnotkmode = t
+qcountfile = qcounts
+bigoutput = f
+filetype = fasta
+kmaxoligo = 8
+breakearly = 1
+dorevcomp = T
+kinfile = WuhanHu1_kpos.xls
+mincount = 1
+printNs = false
+readcounts = readcounts
+pcountdir = pcounts/
+seqext = fq
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 13:34:57.702731 -0700 MST m=+7.844516414
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 15:30:08.863569 -0700 MST m=+0.000142988
+
+Status after Program Completion
+
+	integer parameters
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+
+oolean parameters
+qnotkmode = true
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+
+	string parameters
+progstart = Mon Dec 28 15:30:08 2020
+seqdir = sequences/
+refdir = references/
+qfiletype = fastq
+runorient = right
+seqext = fq
+seqfile = WuhanHu1
+primeroutend = _primers.txt
+filetype = fasta
+kinfile = WuhanHu1_kpos.xls
+left = left
+outputdir = ACmulti_output/
+right = right
+filterdir = qfilters/
+kcountdir = kcounts/
+pcountdir = pcounts/
+prefilter = qfilter_
+
+	file parameters
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+
+	number parameters
+
+	raw parameters
+printNs = false
+getcity = true
+dorevcomp = T
+doqueryq = t
+pcountdir = pcounts/
+qnotkmode = t
+loudness = 2
+filetype = fasta
+minline = 0
+kmaxoligo = 8
+runorient = right
+seqdir = sequences/
+left = left
+seed = 248597
+limitseqs = 50
+seqext = fq
+kpositionsfile = kpos.xls
+minseqlen = 0
+primeroutend = _primers.txt
+seqfile = WuhanHu1
+filterdir = qfilters/
+prefilter = qfilter_
+readcounts = readcounts
+kcountfile = kcounts
+dofilter = false
+sample = 100
+right = right
+record_loudness = 4
+breakearly = 1
+bigoutput = f
+qnotk = qnotk
+chrommapfile = chrommap.xls
+linelimit = 500000
+klen = 14
+doquery = f
+runmode = 1
+printmode = 1
+qfiletype = fastq
+qnotkdir = qnotk/
+kcountdir = kcounts/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+refdir = references/
+mincount = 1
+kmaxprint = 100000
+recordseq = 0
+kandqdir = kandq/
+burnin = 5000
+maxlines = 8000000
+outputdir = ACmulti_output/
+kandq = kandq
+kinfile = WuhanHu1_kpos.xls
+kminprint = 1
+qminprint = 1
+qcountfile = qcounts
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 15:30:20.744217 -0700 MST m=+11.881220858
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 15:41:02.217487 -0700 MST m=+0.000152218
+
+Status after Program Completion
+
+	integer parameters
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+right = right
+filetype = fasta
+qfiletype = fastq
+pcountdir = pcounts/
+runorient = right
+progstart = Mon Dec 28 15:41:02 2020
+seqext = fq
+left = left
+filterdir = qfilters/
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+refdir = references/
+seqfile = WuhanHu1
+primeroutend = _primers.txt
+prefilter = qfilter_
+
+	file parameters
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+
+	number parameters
+
+	raw parameters
+bigoutput = f
+doqueryq = t
+prefilter = qfilter_
+primeroutend = _primers.txt
+filetype = fasta
+recordseq = 0
+kmaxoligo = 8
+sample = 100
+maxlines = 8000000
+qnotkdir = qnotk/
+dorevcomp = T
+qnotk = qnotk
+kminprint = 1
+refdir = references/
+kandqdir = kandq/
+pcountdir = pcounts/
+printmode = 1
+mincount = 1
+printNs = false
+seed = 248597
+filterdir = qfilters/
+kcountdir = kcounts/
+runmode = 1
+klen = 14
+seqdir = sequences/
+loudness = 2
+minline = 0
+linelimit = 500000
+qminprint = 1
+outputdir = ACmulti_output/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+kcountfile = kcounts
+getcity = true
+left = left
+kandq = kandq
+seqfile = WuhanHu1
+chrommapfile = chrommap.xls
+dofilter = false
+burnin = 5000
+seqext = fq
+readcounts = readcounts
+qnotkmode = t
+qfiletype = fastq
+kmaxprint = 100000
+minseqlen = 0
+breakearly = 1
+right = right
+kpositionsfile = kpos.xls
+kinfile = WuhanHu1_kpos.xls
+limitseqs = 50
+doquery = f
+record_loudness = 4
+runorient = right
+qcountfile = qcounts
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 15:41:14.190389 -0700 MST m=+11.973498463
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 15:42:03.828212 -0700 MST m=+0.000201781
+
+Status after Program Completion
+
+	integer parameters
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+seqfile = WuhanHu1
+right = right
+primeroutend = _primers.txt
+outputdir = ACmulti_output/
+qfiletype = fastq
+seqext = fq
+seqdir = sequences/
+refdir = references/
+kinfile = WuhanHu1_kpos.xls
+filetype = fasta
+kcountdir = kcounts/
+pcountdir = pcounts/
+progstart = Mon Dec 28 15:42:03 2020
+prefilter = qfilter_
+left = left
+runorient = right
+filterdir = qfilters/
+
+	file parameters
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+
+	number parameters
+
+	raw parameters
+burnin = 5000
+filterdir = qfilters/
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+runmode = 1
+chrommapfile = chrommap.xls
+minseqlen = 0
+minline = 0
+loudness = 2
+kpositionsfile = kpos.xls
+dofilter = false
+getcity = true
+pcountdir = pcounts/
+kmaxprint = 100000
+recordseq = 0
+refdir = references/
+qnotkdir = qnotk/
+filetype = fasta
+kcountfile = kcounts
+printNs = false
+primeroutend = _primers.txt
+seqdir = sequences/
+left = left
+readcounts = readcounts
+dorevcomp = T
+record_loudness = 4
+kinfile = WuhanHu1_kpos.xls
+kmaxoligo = 8
+bigoutput = f
+breakearly = 1
+seqext = fq
+kandqdir = kandq/
+doqueryq = t
+seqfile = WuhanHu1
+mincount = 1
+klen = 14
+limitseqs = 50
+linelimit = 500000
+maxlines = 8000000
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qminprint = 1
+qnotkmode = t
+qfiletype = fastq
+kminprint = 1
+sample = 100
+seed = 248597
+printmode = 1
+runorient = right
+right = right
+doquery = f
+qnotk = qnotk
+qcountfile = qcounts
+kandq = kandq
+prefilter = qfilter_
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 15:42:15.756441 -0700 MST m=+11.928872508
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 15:42:42.739219 -0700 MST m=+0.000203719
+
+Status after Program Completion
+
+	integer parameters
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+
+oolean parameters
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+
+	string parameters
+right = right
+filetype = fasta
+pcountdir = pcounts/
+seqext = fq
+seqdir = sequences/
+refdir = references/
+kcountdir = kcounts/
+progstart = Mon Dec 28 15:42:42 2020
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+primeroutend = _primers.txt
+runorient = right
+qfiletype = fastq
+prefilter = qfilter_
+left = left
+filterdir = qfilters/
+outputdir = ACmulti_output/
+
+	file parameters
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+
+	number parameters
+
+	raw parameters
+doqueryq = t
+runorient = right
+doquery = f
+chrommapfile = chrommap.xls
+qnotk = qnotk
+qnotkdir = qnotk/
+left = left
+runmode = 1
+filetype = fasta
+mincount = 1
+outputdir = ACmulti_output/
+qnotkmode = t
+primeroutend = _primers.txt
+right = right
+seqfile = WuhanHu1
+maxlines = 8000000
+getcity = true
+seed = 248597
+refdir = references/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+printNs = false
+limitseqs = 50
+kandqdir = kandq/
+seqext = fq
+kminprint = 1
+dofilter = false
+qminprint = 1
+breakearly = 1
+pcountdir = pcounts/
+minline = 0
+klen = 14
+seqdir = sequences/
+kmaxprint = 100000
+linelimit = 500000
+dorevcomp = T
+kcountfile = kcounts
+kandq = kandq
+qcountfile = qcounts
+kmaxoligo = 8
+record_loudness = 4
+qfiletype = fastq
+sample = 100
+filterdir = qfilters/
+kcountdir = kcounts/
+loudness = 2
+kpositionsfile = kpos.xls
+readcounts = readcounts
+minseqlen = 0
+recordseq = 0
+burnin = 5000
+prefilter = qfilter_
+bigoutput = f
+printmode = 1
+kinfile = WuhanHu1_kpos.xls
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 15:42:54.686869 -0700 MST m=+11.948297177
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 15:44:59.763588 -0700 MST m=+0.000214443
+
+Status after Program Completion
+
+	integer parameters
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+
+oolean parameters
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+
+	string parameters
+outputdir = ACmulti_output/
+qfiletype = fastq
+pcountdir = pcounts/
+refdir = references/
+right = right
+filterdir = qfilters/
+prefilter = qfilter_
+seqext = fq
+left = left
+primeroutend = _primers.txt
+kinfile = WuhanHu1_kpos.xls
+filetype = fasta
+kcountdir = kcounts/
+runorient = right
+progstart = Mon Dec 28 15:44:59 2020
+seqdir = sequences/
+seqfile = WuhanHu1
+
+	file parameters
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+
+	number parameters
+
+	raw parameters
+kminprint = 1
+prefilter = qfilter_
+kpositionsfile = kpos.xls
+seqext = fq
+left = left
+doqueryq = t
+linelimit = 500000
+qnotkmode = t
+kandq = kandq
+seqdir = sequences/
+pcountdir = pcounts/
+right = right
+burnin = 5000
+maxlines = 8000000
+filterdir = qfilters/
+printmode = 1
+seqfile = WuhanHu1
+mincount = 1
+printNs = false
+record_loudness = 4
+doquery = f
+qcountfile = qcounts
+bigoutput = f
+loudness = 2
+filetype = fasta
+qnotk = qnotk
+sample = 100
+kandqdir = kandq/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+dorevcomp = T
+klen = 14
+kmaxoligo = 8
+seed = 248597
+limitseqs = 50
+getcity = true
+kcountdir = kcounts/
+kcountfile = kcounts
+recordseq = 0
+breakearly = 1
+primeroutend = _primers.txt
+minseqlen = 0
+runmode = 1
+runorient = right
+refdir = references/
+outputdir = ACmulti_output/
+qfiletype = fastq
+kinfile = WuhanHu1_kpos.xls
+chrommapfile = chrommap.xls
+kmaxprint = 100000
+dofilter = false
+readcounts = readcounts
+minline = 0
+qminprint = 1
+qnotkdir = qnotk/
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 15:45:11.71279 -0700 MST m=+11.949859511
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 15:48:49.816917 -0700 MST m=+0.000141520
+
+Status after Program Completion
+
+	integer parameters
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+kinfile = WuhanHu1_kpos.xls
+right = right
+runorient = right
+filetype = fasta
+progstart = Mon Dec 28 15:48:49 2020
+seqext = fq
+refdir = references/
+seqfile = WuhanHu1
+qfiletype = fastq
+kcountdir = kcounts/
+pcountdir = pcounts/
+seqdir = sequences/
+left = left
+primeroutend = _primers.txt
+filterdir = qfilters/
+outputdir = ACmulti_output/
+prefilter = qfilter_
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+chrommapfile = chrommap.xls
+kminprint = 1
+minline = 0
+seed = 248597
+filterdir = qfilters/
+kcountfile = kcounts
+mincount = 1
+printNs = false
+dorevcomp = T
+kinfile = WuhanHu1_kpos.xls
+linelimit = 500000
+qnotkmode = t
+minseqlen = 0
+burnin = 5000
+qminprint = 1
+left = left
+readcounts = readcounts
+runmode = 1
+kpositionsfile = kpos.xls
+getcity = true
+breakearly = 1
+seqext = fq
+prefilter = qfilter_
+maxlines = 8000000
+runorient = right
+kandq = kandq
+qnotk = qnotk
+recordseq = 0
+seqdir = sequences/
+qnotkdir = qnotk/
+seqfile = WuhanHu1
+kmaxoligo = 8
+limitseqs = 50
+primeroutend = _primers.txt
+loudness = 2
+printmode = 1
+qfiletype = fastq
+klen = 14
+kandqdir = kandq/
+kcountdir = kcounts/
+qcountfile = qcounts
+record_loudness = 4
+filetype = fasta
+pcountdir = pcounts/
+bigoutput = f
+kmaxprint = 100000
+refdir = references/
+right = right
+doquery = f
+doqueryq = t
+dofilter = false
+sample = 100
+outputdir = ACmulti_output/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 15:49:01.582883 -0700 MST m=+11.766544138
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 15:51:46.56253 -0700 MST m=+0.000207532
+
+Status after Program Completion
+
+	integer parameters
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+filetype = fasta
+qfiletype = fastq
+left = left
+primeroutend = _primers.txt
+filterdir = qfilters/
+outputdir = ACmulti_output/
+runorient = right
+seqext = fq
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+refdir = references/
+seqfile = WuhanHu1
+pcountdir = pcounts/
+prefilter = qfilter_
+progstart = Mon Dec 28 15:51:46 2020
+right = right
+kcountdir = kcounts/
+
+	file parameters
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+
+	number parameters
+
+	raw parameters
+filetype = fasta
+breakearly = 1
+primeroutend = _primers.txt
+right = right
+linelimit = 500000
+printNs = false
+getcity = true
+kminprint = 1
+recordseq = 0
+limitseqs = 50
+kmaxprint = 100000
+seed = 248597
+runorient = right
+seqdir = sequences/
+qnotkmode = t
+maxlines = 8000000
+outputdir = ACmulti_output/
+qcountfile = qcounts
+kcountfile = kcounts
+burnin = 5000
+sample = 100
+qminprint = 1
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+record_loudness = 4
+seqfile = WuhanHu1
+kmaxoligo = 8
+kandq = kandq
+dorevcomp = T
+minline = 0
+kandqdir = kandq/
+prefilter = qfilter_
+runmode = 1
+printmode = 1
+qnotk = qnotk
+minseqlen = 0
+qfiletype = fastq
+left = left
+qnotkdir = qnotk/
+refdir = references/
+bigoutput = f
+loudness = 2
+kinfile = WuhanHu1_kpos.xls
+mincount = 1
+chrommapfile = chrommap.xls
+kcountdir = kcounts/
+readcounts = readcounts
+doqueryq = t
+doquery = f
+kpositionsfile = kpos.xls
+klen = 14
+filterdir = qfilters/
+seqext = fq
+pcountdir = pcounts/
+dofilter = false
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 15:51:58.427286 -0700 MST m=+11.865403225
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 15:54:27.616301 -0700 MST m=+0.000156709
+
+Status after Program Completion
+
+	integer parameters
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+seqdir = sequences/
+seqfile = WuhanHu1
+filetype = fasta
+pcountdir = pcounts/
+progstart = Mon Dec 28 15:54:27 2020
+kinfile = WuhanHu1_kpos.xls
+primeroutend = _primers.txt
+filterdir = qfilters/
+outputdir = ACmulti_output/
+runorient = right
+seqext = fq
+left = left
+qfiletype = fastq
+prefilter = qfilter_
+refdir = references/
+kcountdir = kcounts/
+right = right
+
+	file parameters
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+
+	number parameters
+
+	raw parameters
+dofilter = false
+seqfile = WuhanHu1
+kpositionsfile = kpos.xls
+minseqlen = 0
+qnotkmode = t
+doqueryq = t
+filetype = fasta
+filterdir = qfilters/
+outputdir = ACmulti_output/
+refdir = references/
+readcounts = readcounts
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qfiletype = fastq
+mincount = 1
+kmaxoligo = 8
+breakearly = 1
+seed = 248597
+maxlines = 8000000
+prefilter = qfilter_
+primeroutend = _primers.txt
+left = left
+linelimit = 500000
+klen = 14
+qcountfile = qcounts
+printmode = 1
+kinfile = WuhanHu1_kpos.xls
+getcity = true
+burnin = 5000
+runorient = right
+kandqdir = kandq/
+loudness = 2
+qnotk = qnotk
+chrommapfile = chrommap.xls
+limitseqs = 50
+seqdir = sequences/
+kmaxprint = 100000
+dorevcomp = T
+runmode = 1
+kcountfile = kcounts
+sample = 100
+kcountdir = kcounts/
+right = right
+kminprint = 1
+recordseq = 0
+qnotkdir = qnotk/
+pcountdir = pcounts/
+bigoutput = f
+kandq = kandq
+doquery = f
+record_loudness = 4
+minline = 0
+printNs = false
+qminprint = 1
+seqext = fq
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 15:54:39.524008 -0700 MST m=+11.908305868
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 15:57:52.427957 -0700 MST m=+0.000170367
+
+Status after Program Completion
+
+	integer parameters
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+
+oolean parameters
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+dofilter = false
+
+	string parameters
+outputdir = ACmulti_output/
+runorient = right
+progstart = Mon Dec 28 15:57:52 2020
+refdir = references/
+kinfile = WuhanHu1_kpos.xls
+left = left
+right = right
+kcountdir = kcounts/
+seqfile = WuhanHu1
+primeroutend = _primers.txt
+seqext = fq
+seqdir = sequences/
+filterdir = qfilters/
+filetype = fasta
+qfiletype = fastq
+pcountdir = pcounts/
+prefilter = qfilter_
+
+	file parameters
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+
+	number parameters
+
+	raw parameters
+seqext = fq
+kmaxoligo = 8
+refdir = references/
+sample = 100
+breakearly = 1
+outputdir = ACmulti_output/
+printmode = 1
+left = left
+minline = 0
+kpositionsfile = kpos.xls
+qminprint = 1
+qfiletype = fastq
+kcountfile = kcounts
+kmaxprint = 100000
+burnin = 5000
+runorient = right
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+filetype = fasta
+kminprint = 1
+qnotk = qnotk
+dofilter = false
+qnotkdir = qnotk/
+record_loudness = 4
+runmode = 1
+kcountdir = kcounts/
+dorevcomp = T
+kinfile = WuhanHu1_kpos.xls
+seed = 248597
+getcity = true
+chrommapfile = chrommap.xls
+filterdir = qfilters/
+kandqdir = kandq/
+loudness = 2
+prefilter = qfilter_
+bigoutput = f
+seqfile = WuhanHu1
+printNs = false
+linelimit = 500000
+doquery = f
+limitseqs = 50
+qnotkmode = t
+primeroutend = _primers.txt
+readcounts = readcounts
+doqueryq = t
+minseqlen = 0
+maxlines = 8000000
+kandq = kandq
+mincount = 1
+pcountdir = pcounts/
+klen = 14
+seqdir = sequences/
+qcountfile = qcounts
+recordseq = 0
+right = right
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 15:58:04.445092 -0700 MST m=+12.017750831
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:02:19.762088 -0700 MST m=+0.000192241
+
+Status after Program Completion
+
+	integer parameters
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+
+oolean parameters
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+
+	string parameters
+seqdir = sequences/
+seqfile = WuhanHu1
+qfiletype = fastq
+pcountdir = pcounts/
+prefilter = qfilter_
+kinfile = WuhanHu1_kpos.xls
+left = left
+filterdir = qfilters/
+outputdir = ACmulti_output/
+progstart = Mon Dec 28 16:02:19 2020
+seqext = fq
+refdir = references/
+primeroutend = _primers.txt
+right = right
+filetype = fasta
+kcountdir = kcounts/
+runorient = right
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+kmaxoligo = 8
+breakearly = 1
+runorient = right
+kandqdir = kandq/
+loudness = 2
+qnotk = qnotk
+right = right
+readcounts = readcounts
+qnotkdir = qnotk/
+primeroutend = _primers.txt
+minseqlen = 0
+limitseqs = 50
+refdir = references/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+runmode = 1
+qfiletype = fastq
+linelimit = 500000
+burnin = 5000
+bigoutput = f
+filetype = fasta
+klen = 14
+maxlines = 8000000
+doquery = f
+mincount = 1
+kpositionsfile = kpos.xls
+seqext = fq
+kminprint = 1
+kmaxprint = 100000
+prefilter = qfilter_
+qcountfile = qcounts
+record_loudness = 4
+getcity = true
+kandq = kandq
+dorevcomp = T
+qminprint = 1
+filterdir = qfilters/
+kcountdir = kcounts/
+recordseq = 0
+seed = 248597
+pcountdir = pcounts/
+qnotkmode = t
+left = left
+outputdir = ACmulti_output/
+chrommapfile = chrommap.xls
+minline = 0
+dofilter = false
+printNs = false
+sample = 100
+doqueryq = t
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+seqdir = sequences/
+printmode = 1
+kcountfile = kcounts
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:02:31.797352 -0700 MST m=+12.035902041
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:06:08.60183 -0700 MST m=+0.000148328
+
+Status after Program Completion
+
+	integer parameters
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+seqext = fq
+filetype = fasta
+pcountdir = pcounts/
+prefilter = qfilter_
+runorient = right
+primeroutend = _primers.txt
+outputdir = ACmulti_output/
+progstart = Mon Dec 28 16:06:08 2020
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+left = left
+right = right
+filterdir = qfilters/
+qfiletype = fastq
+kcountdir = kcounts/
+refdir = references/
+seqfile = WuhanHu1
+
+	file parameters
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+
+	number parameters
+
+	raw parameters
+left = left
+kcountfile = kcounts
+printNs = false
+outputdir = ACmulti_output/
+seqext = fq
+right = right
+filetype = fasta
+burnin = 5000
+maxlines = 8000000
+qminprint = 1
+getcity = true
+kandqdir = kandq/
+linelimit = 500000
+sample = 100
+runorient = right
+bigoutput = f
+kpositionsfile = kpos.xls
+klen = 14
+readcounts = readcounts
+kinfile = WuhanHu1_kpos.xls
+minline = 0
+qcountfile = qcounts
+kandq = kandq
+qnotk = qnotk
+seqdir = sequences/
+refdir = references/
+qnotkmode = t
+seqfile = WuhanHu1
+breakearly = 1
+prefilter = qfilter_
+doqueryq = t
+printmode = 1
+chrommapfile = chrommap.xls
+kmaxoligo = 8
+primeroutend = _primers.txt
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+pcountdir = pcounts/
+doquery = f
+loudness = 2
+record_loudness = 4
+kmaxprint = 100000
+recordseq = 0
+mincount = 1
+limitseqs = 50
+qnotkdir = qnotk/
+dorevcomp = T
+filterdir = qfilters/
+kcountdir = kcounts/
+qfiletype = fastq
+kminprint = 1
+dofilter = false
+minseqlen = 0
+runmode = 1
+seed = 248597
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:06:20.510067 -0700 MST m=+11.908826432
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:11:31.033276 -0700 MST m=+0.000211043
+
+Status after Program Completion
+
+	integer parameters
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+seqdir = sequences/
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+pcountdir = pcounts/
+seqext = fq
+prefilter = qfilter_
+progstart = Mon Dec 28 16:11:31 2020
+left = left
+primeroutend = _primers.txt
+filterdir = qfilters/
+filetype = fasta
+qfiletype = fastq
+runorient = right
+refdir = references/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+right = right
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+kmaxprint = 100000
+prefilter = qfilter_
+kinfile = WuhanHu1_kpos.xls
+burnin = 5000
+seqfile = WuhanHu1
+doquery = f
+pcountdir = pcounts/
+getcity = true
+runorient = right
+qnotkdir = qnotk/
+record_loudness = 4
+runmode = 1
+maxlines = 8000000
+kandq = kandq
+kmaxoligo = 8
+sample = 100
+breakearly = 1
+limitseqs = 50
+qminprint = 1
+kcountdir = kcounts/
+left = left
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+printmode = 1
+klen = 14
+qnotkmode = t
+dofilter = false
+readcounts = readcounts
+seed = 248597
+filterdir = qfilters/
+linelimit = 500000
+dorevcomp = T
+qnotk = qnotk
+mincount = 1
+minline = 0
+doqueryq = t
+filetype = fasta
+minseqlen = 0
+outputdir = ACmulti_output/
+right = right
+qfiletype = fastq
+refdir = references/
+seqdir = sequences/
+kandqdir = kandq/
+seqext = fq
+primeroutend = _primers.txt
+qcountfile = qcounts
+loudness = 2
+printNs = false
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+kpositionsfile = kpos.xls
+kminprint = 1
+recordseq = 0
+bigoutput = f
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:11:42.947684 -0700 MST m=+11.915063505
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:21:43.026387 -0700 MST m=+0.000214432
+
+Status after Program Completion
+
+	integer parameters
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+
+oolean parameters
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+dofilter = false
+
+	string parameters
+kcountdir = kcounts/
+pcountdir = pcounts/
+progstart = Mon Dec 28 16:21:43 2020
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+right = right
+filterdir = qfilters/
+outputdir = ACmulti_output/
+prefilter = qfilter_
+runorient = right
+seqext = fq
+seqfile = WuhanHu1
+filetype = fasta
+qfiletype = fastq
+refdir = references/
+left = left
+primeroutend = _primers.txt
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+qfiletype = fastq
+minseqlen = 0
+left = left
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+kminprint = 1
+minline = 0
+maxlines = 8000000
+kcountdir = kcounts/
+kandq = kandq
+filetype = fasta
+qnotk = qnotk
+breakearly = 1
+runorient = right
+seqdir = sequences/
+pcountdir = pcounts/
+seqfile = WuhanHu1
+record_loudness = 4
+burnin = 5000
+kandqdir = kandq/
+right = right
+loudness = 2
+dofilter = false
+qcountfile = qcounts
+dorevcomp = T
+runmode = 1
+doqueryq = t
+kmaxprint = 100000
+limitseqs = 50
+filterdir = qfilters/
+kinfile = WuhanHu1_kpos.xls
+kmaxoligo = 8
+outputdir = ACmulti_output/
+qnotkdir = qnotk/
+seqext = fq
+mincount = 1
+getcity = true
+seed = 248597
+printmode = 1
+sample = 100
+qnotkmode = t
+readcounts = readcounts
+doquery = f
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+klen = 14
+printNs = false
+qminprint = 1
+prefilter = qfilter_
+bigoutput = f
+kcountfile = kcounts
+recordseq = 0
+linelimit = 500000
+refdir = references/
+primeroutend = _primers.txt
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:21:54.796202 -0700 MST m=+11.770467715
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:23:01.129476 -0700 MST m=+0.000230220
+
+Status after Program Completion
+
+	integer parameters
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+
+oolean parameters
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+
+	string parameters
+progstart = Mon Dec 28 16:23:01 2020
+seqext = fq
+refdir = references/
+right = right
+qfiletype = fastq
+left = left
+primeroutend = _primers.txt
+filterdir = qfilters/
+kcountdir = kcounts/
+prefilter = qfilter_
+seqdir = sequences/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+filetype = fasta
+pcountdir = pcounts/
+outputdir = ACmulti_output/
+runorient = right
+
+	file parameters
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+
+	number parameters
+
+	raw parameters
+kpositionsfile = kpos.xls
+primeroutend = _primers.txt
+linelimit = 500000
+kandq = kandq
+doqueryq = t
+seqfile = WuhanHu1
+qminprint = 1
+refdir = references/
+printmode = 1
+filetype = fasta
+kmaxprint = 100000
+klen = 14
+qnotkmode = t
+dorevcomp = T
+loudness = 2
+kinfile = WuhanHu1_kpos.xls
+recordseq = 0
+kcountdir = kcounts/
+seqdir = sequences/
+left = left
+doquery = f
+filterdir = qfilters/
+kandqdir = kandq/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+kcountfile = kcounts
+printNs = false
+burnin = 5000
+breakearly = 1
+qcountfile = qcounts
+record_loudness = 4
+kminprint = 1
+minseqlen = 0
+minline = 0
+mincount = 1
+chrommapfile = chrommap.xls
+qnotkdir = qnotk/
+qnotk = qnotk
+maxlines = 8000000
+qfiletype = fastq
+dofilter = false
+kmaxoligo = 8
+prefilter = qfilter_
+getcity = true
+seed = 248597
+runorient = right
+seqext = fq
+outputdir = ACmulti_output/
+bigoutput = f
+readcounts = readcounts
+pcountdir = pcounts/
+right = right
+runmode = 1
+sample = 100
+limitseqs = 50
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:23:12.991329 -0700 MST m=+11.862525225
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:25:22.147054 -0700 MST m=+0.000215255
+
+Status after Program Completion
+
+	integer parameters
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+
+oolean parameters
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+
+	string parameters
+seqext = fq
+qfiletype = fastq
+right = right
+primeroutend = _primers.txt
+filterdir = qfilters/
+outputdir = ACmulti_output/
+progstart = Mon Dec 28 16:25:22 2020
+seqfile = WuhanHu1
+kcountdir = kcounts/
+pcountdir = pcounts/
+prefilter = qfilter_
+seqdir = sequences/
+left = left
+filetype = fasta
+runorient = right
+refdir = references/
+kinfile = WuhanHu1_kpos.xls
+
+	file parameters
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+
+	number parameters
+
+	raw parameters
+qcountfile = qcounts
+kmaxprint = 100000
+getcity = true
+seed = 248597
+limitseqs = 50
+right = right
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+runmode = 1
+kminprint = 1
+breakearly = 1
+seqdir = sequences/
+qfiletype = fastq
+qnotkmode = t
+dorevcomp = T
+minline = 0
+prefilter = qfilter_
+filetype = fasta
+kcountfile = kcounts
+minseqlen = 0
+pcountdir = pcounts/
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+primeroutend = _primers.txt
+printmode = 1
+kpositionsfile = kpos.xls
+runorient = right
+bigoutput = f
+doquery = f
+doqueryq = t
+sample = 100
+qminprint = 1
+seqext = fq
+left = left
+record_loudness = 4
+qnotk = qnotk
+linelimit = 500000
+burnin = 5000
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+dofilter = false
+filterdir = qfilters/
+kandqdir = kandq/
+qnotkdir = qnotk/
+kandq = kandq
+loudness = 2
+kmaxoligo = 8
+printNs = false
+readcounts = readcounts
+mincount = 1
+recordseq = 0
+refdir = references/
+chrommapfile = chrommap.xls
+klen = 14
+maxlines = 8000000
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:25:33.978133 -0700 MST m=+11.831734761
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:27:05.773709 -0700 MST m=+0.000146828
+
+Status after Program Completion
+
+	integer parameters
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+seqdir = sequences/
+seqfile = WuhanHu1
+primeroutend = _primers.txt
+qfiletype = fastq
+pcountdir = pcounts/
+progstart = Mon Dec 28 16:27:05 2020
+left = left
+filterdir = qfilters/
+outputdir = ACmulti_output/
+refdir = references/
+kinfile = WuhanHu1_kpos.xls
+right = right
+filetype = fasta
+prefilter = qfilter_
+runorient = right
+seqext = fq
+kcountdir = kcounts/
+
+	file parameters
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+
+	number parameters
+
+	raw parameters
+kinfile = WuhanHu1_kpos.xls
+outputdir = ACmulti_output/
+sample = 100
+seed = 248597
+kandq = kandq
+seqfile = WuhanHu1
+qfiletype = fastq
+runorient = right
+seqdir = sequences/
+qcountfile = qcounts
+bigoutput = f
+kpositionsfile = kpos.xls
+minseqlen = 0
+printmode = 1
+kmaxprint = 100000
+qnotkdir = qnotk/
+primeroutend = _primers.txt
+right = right
+qminprint = 1
+refdir = references/
+runmode = 1
+doqueryq = t
+kcountfile = kcounts
+limitseqs = 50
+loudness = 2
+record_loudness = 4
+breakearly = 1
+dorevcomp = T
+seqext = fq
+recordseq = 0
+maxlines = 8000000
+linelimit = 500000
+filterdir = qfilters/
+klen = 14
+printNs = false
+chrommapfile = chrommap.xls
+dofilter = false
+getcity = true
+burnin = 5000
+qnotk = qnotk
+mincount = 1
+readcounts = readcounts
+kandqdir = kandq/
+kcountdir = kcounts/
+qnotkmode = t
+left = left
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+doquery = f
+kminprint = 1
+minline = 0
+pcountdir = pcounts/
+prefilter = qfilter_
+filetype = fasta
+kmaxoligo = 8
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:27:17.566225 -0700 MST m=+11.793102302
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:38:33.980112 -0700 MST m=+0.000221938
+
+Status after Program Completion
+
+	integer parameters
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+seqdir = sequences/
+primeroutend = _primers.txt
+qfiletype = fastq
+prefilter = qfilter_
+progstart = Mon Dec 28 16:38:33 2020
+seqext = fq
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+pcountdir = pcounts/
+seqfile = WuhanHu1
+left = left
+right = right
+filterdir = qfilters/
+refdir = references/
+kinfile = WuhanHu1_kpos.xls
+filetype = fasta
+runorient = right
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+minline = 0
+breakearly = 1
+maxlines = 8000000
+primeroutend = _primers.txt
+kmaxprint = 100000
+seqfile = WuhanHu1
+linelimit = 500000
+refdir = references/
+outputdir = ACmulti_output/
+seqext = fq
+record_loudness = 4
+printmode = 1
+mincount = 1
+kminprint = 1
+dorevcomp = T
+left = left
+kandq = kandq
+klen = 14
+burnin = 5000
+right = right
+dofilter = false
+filterdir = qfilters/
+kpositionsfile = kpos.xls
+limitseqs = 50
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+printNs = false
+qnotkmode = t
+kmaxoligo = 8
+seed = 248597
+runorient = right
+pcountdir = pcounts/
+kinfile = WuhanHu1_kpos.xls
+qnotk = qnotk
+readcounts = readcounts
+doqueryq = t
+prefilter = qfilter_
+bigoutput = f
+doquery = f
+seqdir = sequences/
+kandqdir = kandq/
+chrommapfile = chrommap.xls
+qnotkdir = qnotk/
+loudness = 2
+runmode = 1
+qfiletype = fastq
+kcountfile = kcounts
+qcountfile = qcounts
+qminprint = 1
+kcountdir = kcounts/
+sample = 100
+filetype = fasta
+minseqlen = 0
+recordseq = 0
+getcity = true
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:38:45.78719 -0700 MST m=+11.807740509
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:41:30.603803 -0700 MST m=+0.000157150
+
+Status after Program Completion
+
+	integer parameters
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+progstart = Mon Dec 28 16:41:30 2020
+seqext = fq
+outputdir = ACmulti_output/
+prefilter = qfilter_
+left = left
+refdir = references/
+filetype = fasta
+qfiletype = fastq
+pcountdir = pcounts/
+runorient = right
+filterdir = qfilters/
+kcountdir = kcounts/
+seqdir = sequences/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+right = right
+primeroutend = _primers.txt
+
+	file parameters
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+
+	number parameters
+
+	raw parameters
+breakearly = 1
+kmaxprint = 100000
+kmaxoligo = 8
+runorient = right
+qcountfile = qcounts
+qfiletype = fastq
+kcountfile = kcounts
+linelimit = 500000
+pcountdir = pcounts/
+qnotkmode = t
+printmode = 1
+qnotk = qnotk
+seqdir = sequences/
+outputdir = ACmulti_output/
+primeroutend = _primers.txt
+kpositionsfile = kpos.xls
+minline = 0
+limitseqs = 50
+bigoutput = f
+doqueryq = t
+kinfile = WuhanHu1_kpos.xls
+maxlines = 8000000
+seqext = fq
+refdir = references/
+burnin = 5000
+seqfile = WuhanHu1
+chrommapfile = chrommap.xls
+dofilter = false
+recordseq = 0
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+seed = 248597
+qminprint = 1
+kandqdir = kandq/
+kcountdir = kcounts/
+right = right
+readcounts = readcounts
+loudness = 2
+record_loudness = 4
+runmode = 1
+kminprint = 1
+minseqlen = 0
+klen = 14
+doquery = f
+mincount = 1
+kandq = kandq
+filetype = fasta
+filterdir = qfilters/
+qnotkdir = qnotk/
+sample = 100
+prefilter = qfilter_
+dorevcomp = T
+printNs = false
+left = left
+getcity = true
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:41:42.427578 -0700 MST m=+11.824367757
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:43:41.285043 -0700 MST m=+0.000148100
+
+Status after Program Completion
+
+	integer parameters
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+
+oolean parameters
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+
+	string parameters
+right = right
+filterdir = qfilters/
+filetype = fasta
+kcountdir = kcounts/
+pcountdir = pcounts/
+progstart = Mon Dec 28 16:43:41 2020
+seqext = fq
+refdir = references/
+prefilter = qfilter_
+seqdir = sequences/
+outputdir = ACmulti_output/
+primeroutend = _primers.txt
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+left = left
+qfiletype = fastq
+runorient = right
+
+	file parameters
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+
+	number parameters
+
+	raw parameters
+kinfile = WuhanHu1_kpos.xls
+maxlines = 8000000
+minline = 0
+linelimit = 500000
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+runmode = 1
+runorient = right
+left = left
+right = right
+qcountfile = qcounts
+kmaxoligo = 8
+printNs = false
+qnotkdir = qnotk/
+printmode = 1
+seqdir = sequences/
+filetype = fasta
+filterdir = qfilters/
+dorevcomp = T
+minseqlen = 0
+seed = 248597
+kandqdir = kandq/
+prefilter = qfilter_
+loudness = 2
+mincount = 1
+doquery = f
+record_loudness = 4
+qnotk = qnotk
+kminprint = 1
+recordseq = 0
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+seqext = fq
+doqueryq = t
+seqfile = WuhanHu1
+limitseqs = 50
+refdir = references/
+pcountdir = pcounts/
+qnotkmode = t
+kandq = kandq
+dofilter = false
+getcity = true
+primeroutend = _primers.txt
+bigoutput = f
+qfiletype = fastq
+kpositionsfile = kpos.xls
+burnin = 5000
+sample = 100
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+klen = 14
+breakearly = 1
+readcounts = readcounts
+kmaxprint = 100000
+qminprint = 1
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:43:53.111749 -0700 MST m=+11.827292809
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:45:43.663641 -0700 MST m=+0.000213116
+
+Status after Program Completion
+
+	integer parameters
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+refdir = references/
+kinfile = WuhanHu1_kpos.xls
+primeroutend = _primers.txt
+qfiletype = fastq
+filetype = fasta
+pcountdir = pcounts/
+seqext = fq
+seqfile = WuhanHu1
+filterdir = qfilters/
+outputdir = ACmulti_output/
+seqdir = sequences/
+left = left
+right = right
+runorient = right
+progstart = Mon Dec 28 16:45:43 2020
+kcountdir = kcounts/
+prefilter = qfilter_
+
+	file parameters
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+
+	number parameters
+
+	raw parameters
+printmode = 1
+bigoutput = f
+klen = 14
+seed = 248597
+kandqdir = kandq/
+filetype = fasta
+dofilter = false
+kmaxoligo = 8
+qnotk = qnotk
+sample = 100
+chrommapfile = chrommap.xls
+outputdir = ACmulti_output/
+burnin = 5000
+primeroutend = _primers.txt
+refdir = references/
+pcountdir = pcounts/
+readcounts = readcounts
+dorevcomp = T
+qnotkdir = qnotk/
+kcountfile = kcounts
+getcity = true
+prefilter = qfilter_
+recordseq = 0
+printNs = false
+limitseqs = 50
+runorient = right
+kandq = kandq
+qfiletype = fastq
+kpositionsfile = kpos.xls
+linelimit = 500000
+doquery = f
+runmode = 1
+minline = 0
+maxlines = 8000000
+seqdir = sequences/
+left = left
+loudness = 2
+seqfile = WuhanHu1
+mincount = 1
+doqueryq = t
+kminprint = 1
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+kcountdir = kcounts/
+qnotkmode = t
+right = right
+qcountfile = qcounts
+record_loudness = 4
+minseqlen = 0
+breakearly = 1
+qminprint = 1
+filterdir = qfilters/
+seqext = fq
+kinfile = WuhanHu1_kpos.xls
+kmaxprint = 100000
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:45:55.465249 -0700 MST m=+11.802258496
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 16:48:23.490389 -0700 MST m=+0.000212627
+
+Status after Program Completion
+
+	integer parameters
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+filetype = fasta
+prefilter = qfilter_
+kinfile = WuhanHu1_kpos.xls
+seqext = fq
+primeroutend = _primers.txt
+filterdir = qfilters/
+outputdir = ACmulti_output/
+runorient = right
+progstart = Mon Dec 28 16:48:23 2020
+refdir = references/
+seqfile = WuhanHu1
+kcountdir = kcounts/
+seqdir = sequences/
+right = right
+qfiletype = fastq
+pcountdir = pcounts/
+left = left
+
+	file parameters
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+
+	number parameters
+
+	raw parameters
+sample = 100
+breakearly = 1
+kandq = kandq
+mincount = 1
+burnin = 5000
+qminprint = 1
+seqdir = sequences/
+primeroutend = _primers.txt
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+minline = 0
+getcity = true
+qnotkdir = qnotk/
+kminprint = 1
+qcountfile = qcounts
+readcounts = readcounts
+doquery = f
+qnotk = qnotk
+kpositionsfile = kpos.xls
+kcountdir = kcounts/
+dorevcomp = T
+bigoutput = f
+doqueryq = t
+kinfile = WuhanHu1_kpos.xls
+minseqlen = 0
+printmode = 1
+kmaxprint = 100000
+kmaxoligo = 8
+seed = 248597
+qnotkmode = t
+record_loudness = 4
+runmode = 1
+filterdir = qfilters/
+qfiletype = fastq
+kcountfile = kcounts
+pcountdir = pcounts/
+seqfile = WuhanHu1
+kandqdir = kandq/
+right = right
+recordseq = 0
+klen = 14
+linelimit = 500000
+limitseqs = 50
+seqext = fq
+prefilter = qfilter_
+loudness = 2
+dofilter = false
+left = left
+maxlines = 8000000
+refdir = references/
+printNs = false
+runorient = right
+outputdir = ACmulti_output/
+filetype = fasta
+chrommapfile = chrommap.xls
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 16:48:35.477608 -0700 MST m=+11.987875617
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:01:58.879647 -0700 MST m=+0.000153096
+
+Status after Program Completion
+
+	integer parameters
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+right = right
+seqfile = WuhanHu1
+primeroutend = _primers.txt
+filterdir = qfilters/
+outputdir = ACmulti_output/
+pcountdir = pcounts/
+prefilter = qfilter_
+seqext = fq
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+filetype = fasta
+kcountdir = kcounts/
+runorient = right
+progstart = Mon Dec 28 17:01:58 2020
+refdir = references/
+left = left
+qfiletype = fastq
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+linelimit = 500000
+kmaxoligo = 8
+limitseqs = 50
+breakearly = 1
+runorient = right
+primeroutend = _primers.txt
+qfiletype = fastq
+sample = 100
+qnotkmode = t
+prefilter = qfilter_
+readcounts = readcounts
+chrommapfile = chrommap.xls
+kmaxprint = 100000
+pcountdir = pcounts/
+seqext = fq
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+maxlines = 8000000
+outputdir = ACmulti_output/
+runmode = 1
+seqfile = WuhanHu1
+qnotk = qnotk
+printNs = false
+refdir = references/
+bigoutput = f
+dorevcomp = T
+doquery = f
+minline = 0
+qnotkdir = qnotk/
+printmode = 1
+dofilter = false
+getcity = true
+doqueryq = t
+kinfile = WuhanHu1_kpos.xls
+kminprint = 1
+klen = 14
+seqdir = sequences/
+filterdir = qfilters/
+kandq = kandq
+kcountfile = kcounts
+left = left
+qminprint = 1
+kcountdir = kcounts/
+right = right
+qcountfile = qcounts
+mincount = 1
+kpositionsfile = kpos.xls
+recordseq = 0
+kandqdir = kandq/
+filetype = fasta
+burnin = 5000
+loudness = 2
+record_loudness = 4
+minseqlen = 0
+seed = 248597
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:02:10.87723 -0700 MST m=+11.998181216
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:10:54.20059 -0700 MST m=+0.000235550
+
+Status after Program Completion
+
+	integer parameters
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+right = right
+primeroutend = _primers.txt
+progstart = Mon Dec 28 17:10:54 2020
+seqdir = sequences/
+seqfile = WuhanHu1
+filterdir = qfilters/
+filetype = fasta
+pcountdir = pcounts/
+kinfile = WuhanHu1_kpos.xls
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+runorient = right
+seqext = fq
+refdir = references/
+left = left
+qfiletype = fastq
+prefilter = qfilter_
+
+	file parameters
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+
+	number parameters
+
+	raw parameters
+prefilter = qfilter_
+kandq = kandq
+loudness = 2
+chrommapfile = chrommap.xls
+outputdir = ACmulti_output/
+pcountdir = pcounts/
+kpositionsfile = kpos.xls
+runorient = right
+record_loudness = 4
+filetype = fasta
+recordseq = 0
+doquery = f
+minseqlen = 0
+minline = 0
+kcountdir = kcounts/
+mincount = 1
+kminprint = 1
+qnotkdir = qnotk/
+burnin = 5000
+refdir = references/
+right = right
+seqfile = WuhanHu1
+breakearly = 1
+left = left
+qcountfile = qcounts
+bigoutput = f
+runmode = 1
+printmode = 1
+kandqdir = kandq/
+limitseqs = 50
+primeroutend = _primers.txt
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+linelimit = 500000
+dofilter = false
+kmaxoligo = 8
+qminprint = 1
+seqext = fq
+filterdir = qfilters/
+qnotkmode = t
+kinfile = WuhanHu1_kpos.xls
+kmaxprint = 100000
+klen = 14
+seqdir = sequences/
+seed = 248597
+dorevcomp = T
+qfiletype = fastq
+kcountfile = kcounts
+getcity = true
+sample = 100
+printNs = false
+maxlines = 8000000
+qnotk = qnotk
+readcounts = readcounts
+doqueryq = t
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:11:06.141773 -0700 MST m=+11.941861040
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:14:40.199199 -0700 MST m=+0.000281613
+
+Status after Program Completion
+
+	integer parameters
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+
+oolean parameters
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+
+	string parameters
+refdir = references/
+filterdir = qfilters/
+seqext = fq
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+left = left
+qfiletype = fastq
+kcountdir = kcounts/
+runorient = right
+seqfile = WuhanHu1
+right = right
+primeroutend = _primers.txt
+pcountdir = pcounts/
+prefilter = qfilter_
+progstart = Mon Dec 28 17:14:40 2020
+outputdir = ACmulti_output/
+filetype = fasta
+
+	file parameters
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+
+	number parameters
+
+	raw parameters
+kcountdir = kcounts/
+kcountfile = kcounts
+printmode = 1
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+refdir = references/
+pcountdir = pcounts/
+qnotkmode = t
+qfiletype = fastq
+mincount = 1
+limitseqs = 50
+maxlines = 8000000
+runmode = 1
+getcity = true
+breakearly = 1
+doqueryq = t
+linelimit = 500000
+left = left
+right = right
+runorient = right
+seqdir = sequences/
+seqext = fq
+dorevcomp = T
+kinfile = WuhanHu1_kpos.xls
+dofilter = false
+minseqlen = 0
+kmaxprint = 100000
+outputdir = ACmulti_output/
+qnotkdir = qnotk/
+readcounts = readcounts
+kpositionsfile = kpos.xls
+sample = 100
+primeroutend = _primers.txt
+bigoutput = f
+seqfile = WuhanHu1
+qminprint = 1
+filterdir = qfilters/
+minline = 0
+kmaxoligo = 8
+kandqdir = kandq/
+prefilter = qfilter_
+qcountfile = qcounts
+loudness = 2
+chrommapfile = chrommap.xls
+recordseq = 0
+record_loudness = 4
+kminprint = 1
+doquery = f
+filetype = fasta
+burnin = 5000
+seed = 248597
+qnotk = qnotk
+kandq = kandq
+klen = 14
+printNs = false
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:14:52.111209 -0700 MST m=+11.912724282
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:17:39.846581 -0700 MST m=+0.000152998
+
+Status after Program Completion
+
+	integer parameters
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+
+oolean parameters
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+dofilter = false
+
+	string parameters
+refdir = references/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+right = right
+filterdir = qfilters/
+filetype = fasta
+pcountdir = pcounts/
+seqdir = sequences/
+progstart = Mon Dec 28 17:17:39 2020
+left = left
+qfiletype = fastq
+kcountdir = kcounts/
+prefilter = qfilter_
+seqext = fq
+outputdir = ACmulti_output/
+runorient = right
+primeroutend = _primers.txt
+
+	file parameters
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+
+	number parameters
+
+	raw parameters
+runmode = 1
+mincount = 1
+refdir = references/
+kandqdir = kandq/
+seqext = fq
+prefilter = qfilter_
+doquery = f
+printmode = 1
+kcountfile = kcounts
+recordseq = 0
+kmaxoligo = 8
+getcity = true
+right = right
+sample = 100
+left = left
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+minline = 0
+kcountdir = kcounts/
+bigoutput = f
+primeroutend = _primers.txt
+minseqlen = 0
+dofilter = false
+limitseqs = 50
+doqueryq = t
+qfiletype = fastq
+seqdir = sequences/
+qcountfile = qcounts
+qnotk = qnotk
+outputdir = ACmulti_output/
+dorevcomp = T
+printNs = false
+loudness = 2
+kinfile = WuhanHu1_kpos.xls
+maxlines = 8000000
+pcountdir = pcounts/
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+filterdir = qfilters/
+kandq = kandq
+record_loudness = 4
+seqfile = WuhanHu1
+klen = 14
+qnotkmode = t
+kminprint = 1
+kmaxprint = 100000
+burnin = 5000
+qminprint = 1
+runorient = right
+filetype = fasta
+seed = 248597
+qnotkdir = qnotk/
+readcounts = readcounts
+linelimit = 500000
+breakearly = 1
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:17:51.739547 -0700 MST m=+11.893551313
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:21:07.595362 -0700 MST m=+0.000218935
+
+Status after Program Completion
+
+	integer parameters
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+
+oolean parameters
+qnotkmode = true
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+
+	string parameters
+kcountdir = kcounts/
+prefilter = qfilter_
+seqext = fq
+refdir = references/
+kinfile = WuhanHu1_kpos.xls
+right = right
+primeroutend = _primers.txt
+outputdir = ACmulti_output/
+qfiletype = fastq
+pcountdir = pcounts/
+seqdir = sequences/
+seqfile = WuhanHu1
+filterdir = qfilters/
+filetype = fasta
+runorient = right
+progstart = Mon Dec 28 17:21:07 2020
+left = left
+
+	file parameters
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+
+	number parameters
+
+	raw parameters
+getcity = true
+mincount = 1
+kandq = kandq
+runmode = 1
+maxlines = 8000000
+bigoutput = f
+filetype = fasta
+kmaxprint = 100000
+limitseqs = 50
+seqdir = sequences/
+qnotk = qnotk
+refdir = references/
+right = right
+doqueryq = t
+printmode = 1
+qcountfile = qcounts
+loudness = 2
+filterdir = qfilters/
+qfiletype = fastq
+kminprint = 1
+minline = 0
+linelimit = 500000
+klen = 14
+qminprint = 1
+record_loudness = 4
+left = left
+kpositionsfile = kpos.xls
+runorient = right
+qnotkmode = t
+outputdir = ACmulti_output/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+kcountfile = kcounts
+kcountdir = kcounts/
+seqext = fq
+dorevcomp = T
+kmaxoligo = 8
+seed = 248597
+pcountdir = pcounts/
+minseqlen = 0
+burnin = 5000
+breakearly = 1
+primeroutend = _primers.txt
+chrommapfile = chrommap.xls
+dofilter = false
+recordseq = 0
+prefilter = qfilter_
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+printNs = false
+sample = 100
+kandqdir = kandq/
+qnotkdir = qnotk/
+readcounts = readcounts
+doquery = f
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:21:19.551121 -0700 MST m=+11.956412431
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:22:09.353071 -0700 MST m=+0.000172722
+
+Status after Program Completion
+
+	integer parameters
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+
+oolean parameters
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+dofilter = false
+
+	string parameters
+filetype = fasta
+runorient = right
+seqext = fq
+kinfile = WuhanHu1_kpos.xls
+filterdir = qfilters/
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+pcountdir = pcounts/
+right = right
+primeroutend = _primers.txt
+seqdir = sequences/
+refdir = references/
+seqfile = WuhanHu1
+prefilter = qfilter_
+progstart = Mon Dec 28 17:22:09 2020
+left = left
+qfiletype = fastq
+
+	file parameters
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+
+	number parameters
+
+	raw parameters
+doqueryq = t
+kandqdir = kandq/
+pcountdir = pcounts/
+prefilter = qfilter_
+maxlines = 8000000
+seed = 248597
+seqdir = sequences/
+filetype = fasta
+printmode = 1
+kinfile = WuhanHu1_kpos.xls
+refdir = references/
+doquery = f
+printNs = false
+qnotkmode = t
+bigoutput = f
+recordseq = 0
+breakearly = 1
+qnotkdir = qnotk/
+record_loudness = 4
+seqfile = WuhanHu1
+seqext = fq
+getcity = true
+filterdir = qfilters/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+chrommapfile = chrommap.xls
+minseqlen = 0
+kmaxoligo = 8
+kpositionsfile = kpos.xls
+outputdir = ACmulti_output/
+kminprint = 1
+primeroutend = _primers.txt
+kandq = kandq
+qminprint = 1
+runmode = 1
+sample = 100
+mincount = 1
+runorient = right
+dorevcomp = T
+qnotk = qnotk
+kmaxprint = 100000
+minline = 0
+kcountfile = kcounts
+limitseqs = 50
+right = right
+loudness = 2
+dofilter = false
+klen = 14
+qcountfile = qcounts
+readcounts = readcounts
+kcountdir = kcounts/
+left = left
+qfiletype = fastq
+linelimit = 500000
+burnin = 5000
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:22:16.921263 -0700 MST m=+7.568640603
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:23:10.672008 -0700 MST m=+0.000200447
+
+Status after Program Completion
+
+	integer parameters
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+pcountdir = pcounts/
+outputdir = ACmulti_output/
+seqdir = sequences/
+refdir = references/
+filetype = fasta
+progstart = Mon Dec 28 17:23:10 2020
+kinfile = WuhanHu1_kpos.xls
+left = left
+kcountdir = kcounts/
+prefilter = qfilter_
+runorient = right
+seqext = fq
+right = right
+primeroutend = _primers.txt
+filterdir = qfilters/
+qfiletype = fastq
+seqfile = WuhanHu1
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+loudness = 2
+mincount = 1
+linelimit = 500000
+seqdir = sequences/
+dofilter = false
+sample = 100
+runorient = right
+record_loudness = 4
+filetype = fasta
+chrommapfile = chrommap.xls
+minseqlen = 0
+minline = 0
+breakearly = 1
+kcountdir = kcounts/
+qnotkmode = t
+primeroutend = _primers.txt
+kandq = kandq
+kcountfile = kcounts
+getcity = true
+qnotkdir = qnotk/
+doquery = f
+kinfile = WuhanHu1_kpos.xls
+burnin = 5000
+qminprint = 1
+refdir = references/
+kpositionsfile = kpos.xls
+maxlines = 8000000
+filterdir = qfilters/
+outputdir = ACmulti_output/
+pcountdir = pcounts/
+doqueryq = t
+qfiletype = fastq
+kmaxoligo = 8
+seqfile = WuhanHu1
+seqext = fq
+left = left
+right = right
+dorevcomp = T
+printmode = 1
+qnotk = qnotk
+kmaxprint = 100000
+klen = 14
+printNs = false
+qcountfile = qcounts
+bigoutput = f
+readcounts = readcounts
+seed = 248597
+recordseq = 0
+limitseqs = 50
+kandqdir = kandq/
+prefilter = qfilter_
+runmode = 1
+kminprint = 1
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:23:18.228338 -0700 MST m=+7.556805663
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:34:13.524123 -0700 MST m=+0.000152114
+
+Status after Program Completion
+
+	integer parameters
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+right = right
+filetype = fasta
+kcountdir = kcounts/
+runorient = right
+kinfile = WuhanHu1_kpos.xls
+left = left
+outputdir = ACmulti_output/
+qfiletype = fastq
+seqext = fq
+seqdir = sequences/
+refdir = references/
+seqfile = WuhanHu1
+primeroutend = _primers.txt
+filterdir = qfilters/
+progstart = Mon Dec 28 17:34:13 2020
+pcountdir = pcounts/
+prefilter = qfilter_
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+dorevcomp = T
+kminprint = 1
+kandqdir = kandq/
+kpositionsfile = kpos.xls
+dofilter = false
+minseqlen = 0
+filterdir = qfilters/
+seqext = fq
+runmode = 1
+kinfile = WuhanHu1_kpos.xls
+seqdir = sequences/
+printmode = 1
+maxlines = 8000000
+pcountdir = pcounts/
+minline = 0
+linelimit = 500000
+record_loudness = 4
+kmaxoligo = 8
+qnotkmode = t
+chrommapfile = chrommap.xls
+sample = 100
+qfiletype = fastq
+getcity = true
+breakearly = 1
+seed = 248597
+qminprint = 1
+doqueryq = t
+kmaxprint = 100000
+printNs = false
+runorient = right
+refdir = references/
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+bigoutput = f
+seqfile = WuhanHu1
+burnin = 5000
+limitseqs = 50
+doquery = f
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+kcountfile = kcounts
+left = left
+kandq = kandq
+prefilter = qfilter_
+primeroutend = _primers.txt
+right = right
+qcountfile = qcounts
+filetype = fasta
+mincount = 1
+recordseq = 0
+klen = 14
+qnotkdir = qnotk/
+readcounts = readcounts
+loudness = 2
+qnotk = qnotk
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:34:20.458816 -0700 MST m=+6.935096724
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:34:56.381936 -0700 MST m=+0.000160808
+
+Status after Program Completion
+
+	integer parameters
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+
+oolean parameters
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+dofilter = false
+
+	string parameters
+left = left
+filetype = fasta
+kcountdir = kcounts/
+refdir = references/
+kinfile = WuhanHu1_kpos.xls
+filterdir = qfilters/
+qfiletype = fastq
+prefilter = qfilter_
+runorient = right
+progstart = Mon Dec 28 17:34:56 2020
+seqext = fq
+seqdir = sequences/
+seqfile = WuhanHu1
+outputdir = ACmulti_output/
+right = right
+primeroutend = _primers.txt
+pcountdir = pcounts/
+
+	file parameters
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+
+	number parameters
+
+	raw parameters
+kmaxprint = 100000
+qnotkmode = t
+record_loudness = 4
+seed = 248597
+dorevcomp = T
+qfiletype = fastq
+filetype = fasta
+kmaxoligo = 8
+limitseqs = 50
+doquery = f
+doqueryq = t
+getcity = true
+dofilter = false
+sample = 100
+seqdir = sequences/
+right = right
+bigoutput = f
+runorient = right
+qnotkdir = qnotk/
+kminprint = 1
+primeroutend = _primers.txt
+minseqlen = 0
+burnin = 5000
+refdir = references/
+outputdir = ACmulti_output/
+left = left
+qcountfile = qcounts
+qnotk = qnotk
+recordseq = 0
+minline = 0
+seqext = fq
+seqfile = WuhanHu1
+linelimit = 500000
+kandqdir = kandq/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+printmode = 1
+kcountfile = kcounts
+printNs = false
+prefilter = qfilter_
+kandq = kandq
+loudness = 2
+pcountdir = pcounts/
+mincount = 1
+runmode = 1
+kpositionsfile = kpos.xls
+klen = 14
+breakearly = 1
+filterdir = qfilters/
+kcountdir = kcounts/
+readcounts = readcounts
+kinfile = WuhanHu1_kpos.xls
+maxlines = 8000000
+qminprint = 1
+chrommapfile = chrommap.xls
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:35:02.572785 -0700 MST m=+6.191235087
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:35:59.209021 -0700 MST m=+0.000172037
+
+Status after Program Completion
+
+	integer parameters
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = true
+qnotkmode = true
+
+	string parameters
+progstart = Mon Dec 28 17:35:59 2020
+seqfile = WuhanHu1
+refdir = references/
+left = left
+filetype = fasta
+qfiletype = fastq
+runorient = right
+primeroutend = _primers.txt
+filterdir = qfilters/
+pcountdir = pcounts/
+prefilter = qfilter_
+kcountdir = kcounts/
+seqext = fq
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+right = right
+outputdir = ACmulti_output/
+
+	file parameters
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+
+	number parameters
+
+	raw parameters
+prefilter = qfilter_
+kmaxoligo = 8
+seqdir = sequences/
+mincount = 1
+dorevcomp = T
+chrommapfile = chrommap.xls
+kminprint = 1
+burnin = 5000
+seqext = fq
+right = right
+kandq = kandq
+readcounts = readcounts
+doqueryq = t
+kinfile = WuhanHu1_kpos.xls
+klen = 14
+outputdir = ACmulti_output/
+kcountfile = kcounts
+qminprint = 1
+runorient = right
+minline = 0
+qfiletype = fastq
+minseqlen = 0
+breakearly = 1
+bigoutput = t
+getcity = true
+maxlines = 8000000
+refdir = references/
+kcountdir = kcounts/
+pcountdir = pcounts/
+linelimit = 500000
+loudness = 2
+qnotk = qnotk
+kpositionsfile = kpos.xls
+recordseq = 0
+left = left
+limitseqs = 50
+filterdir = qfilters/
+qnotkdir = qnotk/
+printmode = 1
+filetype = fasta
+primeroutend = _primers.txt
+doquery = f
+seqfile = WuhanHu1
+qcountfile = qcounts
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+record_loudness = 4
+kmaxprint = 100000
+dofilter = false
+sample = 100
+seed = 248597
+runmode = 1
+printNs = false
+kandqdir = kandq/
+qnotkmode = t
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:36:13.251661 -0700 MST m=+14.043322621
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:37:22.755192 -0700 MST m=+0.000221348
+
+Status after Program Completion
+
+	integer parameters
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+progstart = Mon Dec 28 17:37:22 2020
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+outputdir = ACmulti_output/
+prefilter = qfilter_
+refdir = references/
+left = left
+primeroutend = _primers.txt
+seqext = fq
+right = right
+qfiletype = fastq
+kcountdir = kcounts/
+runorient = right
+seqdir = sequences/
+filterdir = qfilters/
+filetype = fasta
+pcountdir = pcounts/
+
+	file parameters
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+
+	number parameters
+
+	raw parameters
+kminprint = 1
+right = right
+runorient = right
+seqdir = sequences/
+runmode = 1
+dofilter = false
+linelimit = 500000
+breakearly = 1
+qminprint = 1
+left = left
+dorevcomp = T
+refdir = references/
+kandqdir = kandq/
+qnotkmode = t
+primeroutend = _primers.txt
+printmode = 1
+kpositionsfile = kpos.xls
+prefilter = qfilter_
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+maxlines = 8000000
+seqext = fq
+record_loudness = 4
+qnotk = qnotk
+mincount = 1
+kmaxoligo = 8
+outputdir = ACmulti_output/
+bigoutput = f
+doqueryq = t
+seqfile = WuhanHu1
+seed = 248597
+pcountdir = pcounts/
+kandq = kandq
+doquery = f
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+filetype = fasta
+printNs = false
+burnin = 5000
+qcountfile = qcounts
+limitseqs = 50
+filterdir = qfilters/
+qnotkdir = qnotk/
+sample = 100
+kcountdir = kcounts/
+kinfile = WuhanHu1_kpos.xls
+kmaxprint = 100000
+recordseq = 0
+qfiletype = fastq
+minseqlen = 0
+klen = 14
+getcity = true
+readcounts = readcounts
+loudness = 2
+minline = 0
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:37:29.007608 -0700 MST m=+6.252863983
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 17:39:04.46936 -0700 MST m=+0.000197776
+
+Status after Program Completion
+
+	integer parameters
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+
+oolean parameters
+bigoutput = false
+qnotkmode = false
+printNs = false
+recordseq = false
+dofilter = false
+
+	string parameters
+filetype = fasta
+pcountdir = pcounts/
+runorient = right
+kinfile = WuhanHu1_kpos.xls
+right = right
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+seqdir = sequences/
+refdir = references/
+primeroutend = _primers.txt
+filterdir = qfilters/
+seqfile = WuhanHu1
+left = left
+qfiletype = fastq
+prefilter = qfilter_
+progstart = Mon Dec 28 17:39:04 2020
+seqext = fq
+
+	file parameters
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+
+	number parameters
+
+	raw parameters
+qfiletype = fastq
+record_loudness = 4
+runorient = right
+refdir = references/
+outputdir = ACmulti_output/
+seqext = fq
+primeroutend = _primers.txt
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+runmode = 1
+sample = 100
+recordseq = 0
+minseqlen = 0
+kinfile = WuhanHu1_kpos.xls
+maxlines = 8000000
+readcounts = readcounts
+doquery = f
+getcity = true
+chrommapfile = chrommap.xls
+dorevcomp = T
+doqueryq = t
+printmode = 1
+bigoutput = f
+dofilter = false
+klen = 14
+seqdir = sequences/
+qnotkmode = f
+mincount = 1
+kmaxprint = 100000
+kcountdir = kcounts/
+filetype = fasta
+filterdir = qfilters/
+right = right
+breakearly = 1
+printNs = false
+limitseqs = 50
+qnotkdir = qnotk/
+minline = 0
+kandqdir = kandq/
+prefilter = qfilter_
+left = left
+linelimit = 500000
+kmaxoligo = 8
+seed = 248597
+pcountdir = pcounts/
+kminprint = 1
+seqfile = WuhanHu1
+qnotk = qnotk
+qminprint = 1
+loudness = 2
+kpositionsfile = kpos.xls
+kcountfile = kcounts
+qcountfile = qcounts
+kandq = kandq
+burnin = 5000
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 17:39:26.083841 -0700 MST m=+21.615464314
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 18:15:56.109127 -0700 MST m=+0.000171121
+
+Status after Program Completion
+
+	integer parameters
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+
+oolean parameters
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+
+	string parameters
+seqdir = sequences/
+seqext = fq
+right = right
+outputdir = ACmulti_output/
+qfiletype = fastq
+pcountdir = pcounts/
+progstart = Mon Dec 28 18:15:56 2020
+refdir = references/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+left = left
+primeroutend = _primers.txt
+filterdir = qfilters/
+filetype = fasta
+kcountdir = kcounts/
+prefilter = qfilter_
+runorient = right
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+dorevcomp = T
+doqueryq = t
+recordseq = 0
+runmode = 1
+limitseqs = 50
+outputdir = ACmulti_output/
+kinfile = WuhanHu1_kpos.xls
+qfiletype = fastq
+seqfile = WuhanHu1
+seqext = fq
+primeroutend = _primers.txt
+kminprint = 1
+kpositionsfile = kpos.xls
+record_loudness = 4
+printmode = 1
+refdir = references/
+filterdir = qfilters/
+kandqdir = kandq/
+bigoutput = f
+filetype = fasta
+right = right
+kandq = kandq
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+mincount = 1
+dofilter = false
+linelimit = 500000
+qminprint = 1
+seqdir = sequences/
+pcountdir = pcounts/
+qnotkmode = t
+prefilter = qfilter_
+qcountfile = qcounts
+klen = 14
+kmaxprint = 100000
+kmaxoligo = 8
+printNs = false
+chrommapfile = chrommap.xls
+minseqlen = 0
+maxlines = 8000000
+loudness = 2
+runorient = right
+kcountfile = kcounts
+readcounts = readcounts
+doquery = f
+qnotkdir = qnotk/
+kcountdir = kcounts/
+left = left
+qnotk = qnotk
+minline = 0
+seed = 248597
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 18:16:02.311732 -0700 MST m=+6.203003709
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 19:06:56.565049 -0700 MST m=+0.000140163
+
+Status after Program Completion
+
+	integer parameters
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+
+oolean parameters
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+
+	string parameters
+refdir = references/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+primeroutend = _primers.txt
+filterdir = qfilters/
+filetype = fasta
+progstart = Mon Dec 28 19:06:56 2020
+seqext = fq
+prefilter = qfilter_
+runorient = right
+left = left
+qfiletype = fastq
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+pcountdir = pcounts/
+seqdir = sequences/
+right = right
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+qnotkmode = t
+primeroutend = _primers.txt
+kcountfile = kcounts
+qnotk = qnotk
+runmode = 1
+printmode = 1
+kcountdir = kcounts/
+pcountdir = pcounts/
+minline = 0
+maxlines = 8000000
+seed = 248597
+klen = 14
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+doqueryq = t
+loudness = 2
+kinfile = WuhanHu1_kpos.xls
+seqext = fq
+left = left
+recordseq = 0
+chrommapfile = chrommap.xls
+linelimit = 500000
+record_loudness = 4
+seqdir = sequences/
+bigoutput = f
+mincount = 1
+prefilter = qfilter_
+qcountfile = qcounts
+printNs = false
+limitseqs = 50
+refdir = references/
+outputdir = ACmulti_output/
+qnotkdir = qnotk/
+doquery = f
+kmaxprint = 100000
+qminprint = 1
+filterdir = qfilters/
+qfiletype = fastq
+kminprint = 1
+runorient = right
+kandqdir = kandq/
+minseqlen = 0
+kmaxoligo = 8
+filetype = fasta
+right = right
+readcounts = readcounts
+dofilter = false
+seqfile = WuhanHu1
+kandq = kandq
+dorevcomp = T
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 19:07:02.796015 -0700 MST m=+6.231337777
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 19:34:23.217984 -0700 MST m=+0.000186588
+
+Status after Program Completion
+
+	integer parameters
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+
+	string parameters
+kinfile = WuhanHu1_kpos.xls
+left = left
+primeroutend = _primers.txt
+filterdir = qfilters/
+seqfile = WuhanHu1
+right = right
+outputdir = ACmulti_output/
+filetype = fasta
+pcountdir = pcounts/
+seqext = fq
+qfiletype = fastq
+runorient = right
+progstart = Mon Dec 28 19:34:23 2020
+seqdir = sequences/
+refdir = references/
+kcountdir = kcounts/
+prefilter = qfilter_
+
+	file parameters
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+
+	number parameters
+
+	raw parameters
+maxlines = 8000000
+bigoutput = f
+limitseqs = 50
+filterdir = qfilters/
+filetype = fasta
+printNs = false
+printmode = 1
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+kpositionsfile = kpos.xls
+doqueryq = t
+minline = 0
+qminprint = 1
+klen = 14
+kminprint = 1
+seed = 248597
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+seqfile = WuhanHu1
+left = left
+dorevcomp = T
+recordseq = 0
+runmode = 1
+kandqdir = kandq/
+pcountdir = pcounts/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+prefilter = qfilter_
+kandq = kandq
+record_loudness = 4
+qfiletype = fastq
+seqext = fq
+primeroutend = _primers.txt
+kmaxprint = 100000
+minseqlen = 0
+refdir = references/
+right = right
+dofilter = false
+doquery = f
+linelimit = 500000
+chrommapfile = chrommap.xls
+runorient = right
+qnotkmode = t
+qnotkdir = qnotk/
+kcountfile = kcounts
+qnotk = qnotk
+loudness = 2
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 19:34:29.448799 -0700 MST m=+6.231231982
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 19:53:00.199517 -0700 MST m=+0.000150860
+
+Status after Program Completion
+
+	integer parameters
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+
+oolean parameters
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = true
+printNs = false
+
+	string parameters
+seqext = fq
+kinfile = WuhanHu1_kpos.xls
+left = left
+right = right
+kcountdir = kcounts/
+refdir = references/
+seqfile = WuhanHu1
+qfiletype = fastq
+progstart = Mon Dec 28 19:53:00 2020
+filterdir = qfilters/
+outputdir = ACmulti_output/
+pcountdir = pcounts/
+runorient = right
+seqdir = sequences/
+primeroutend = _primers.txt
+filetype = fasta
+prefilter = qfilter_
+
+	file parameters
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+
+	number parameters
+
+	raw parameters
+kinfile = WuhanHu1_kpos.xls
+primeroutend = _primers.txt
+minmatch = 50
+minposdiff = -16
+minline = 0
+pcountdir = pcounts/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+left = left
+printNs = false
+dofilter = false
+chrommapfile = chrommap.xls
+kandqdir = kandq/
+seqfile = WuhanHu1
+kcountfile = kcounts
+linelimit = 500000
+qminprint = 1
+qnotkdir = qnotk/
+dorevcomp = T
+bigoutput = f
+filetype = fasta
+maxfirsthit = 2
+qnotkmode = t
+minlasthit = 219
+refdir = references/
+seed = 248597
+limitseqs = 50
+maxlines = 8000000
+kandq = kandq
+minseq = 247
+recordseq = 0
+qfiletype = fastq
+seqdir = sequences/
+klen = 14
+qnotk = qnotk
+kmaxprint = 100000
+minseqlen = 0
+runorient = right
+prefilter = qfilter_
+kpositionsfile = kpos.xls
+Wudiffmax = 254
+doqueryq = t
+filterdir = qfilters/
+doquery = f
+right = right
+maxmisses = 42
+loudness = 2
+record_loudness = 4
+runmode = 1
+printmode = 1
+seqext = fq
+kminprint = 1
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 19:53:06.459461 -0700 MST m=+6.260327016
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 20:02:17.824963 -0700 MST m=+0.000176512
+
+Status after Program Completion
+
+	integer parameters
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+
+oolean parameters
+bigoutput = false
+qnotkmode = true
+printNs = false
+recordseq = false
+dofilter = false
+
+	string parameters
+progstart = Mon Dec 28 20:02:17 2020
+seqdir = sequences/
+kinfile = WuhanHu1_kpos.xls
+right = right
+primeroutend = _primers.txt
+filetype = fasta
+prefilter = qfilter_
+qfiletype = fastq
+pcountdir = pcounts/
+runorient = right
+seqext = fq
+refdir = references/
+seqfile = WuhanHu1
+left = left
+filterdir = qfilters/
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+filterdir = qfilters/
+kcountdir = kcounts/
+Wudiffmax = 254
+right = right
+kcountfile = kcounts
+record_loudness = 4
+bigoutput = f
+limitseqs = 50
+seqfile = WuhanHu1
+maxmisses = 42
+linelimit = 500000
+maxlines = 8000000
+qnotkmode = t
+klen = 14
+minline = 0
+kpositionsfile = kpos.xls
+recordseq = 0
+doquery = f
+runorient = right
+kminprint = 1
+dorevcomp = T
+doqueryq = t
+minseqlen = 0
+seqdir = sequences/
+qnotk = qnotk
+qfilterheader = true
+prefilter = qfilter_
+kandq = kandq
+minposdiff = -16
+qfiletype = fastq
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+left = left
+kinfile = WuhanHu1_kpos.xls
+minlasthit = 219
+runmode = 1
+primeroutend = _primers.txt
+maxfirsthit = 2
+kmaxprint = 100000
+chrommapfile = chrommap.xls
+loudness = 2
+qminprint = 1
+printmode = 1
+seed = 248597
+seqext = fq
+refdir = references/
+minseq = 247
+outputdir = ACmulti_output/
+qnotkdir = qnotk/
+printNs = false
+kandqdir = kandq/
+dofilter = false
+pcountdir = pcounts/
+filetype = fasta
+minmatch = 50
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 20:02:24.052405 -0700 MST m=+6.227849777
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 20:02:49.558128 -0700 MST m=+0.000186749
+
+Status after Program Completion
+
+	integer parameters
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+
+oolean parameters
+dofilter = false
+bigoutput = false
+qnotkmode = false
+printNs = false
+recordseq = false
+
+	string parameters
+prefilter = qfilter_
+seqdir = sequences/
+qfiletype = fastq
+pcountdir = pcounts/
+runorient = right
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+primeroutend = _primers.txt
+right = right
+filterdir = qfilters/
+outputdir = ACmulti_output/
+filetype = fasta
+progstart = Mon Dec 28 20:02:49 2020
+seqext = fq
+refdir = references/
+left = left
+kcountdir = kcounts/
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+qnotkdir = qnotk/
+primeroutend = _primers.txt
+kpositionsfile = kpos.xls
+kmaxprint = 100000
+recordseq = 0
+printmode = 1
+seqext = fq
+filterdir = qfilters/
+kandqdir = kandq/
+runorient = right
+outputdir = ACmulti_output/
+left = left
+maxfirsthit = 2
+dofilter = false
+loudness = 2
+limitseqs = 50
+klen = 14
+minseq = 247
+seqdir = sequences/
+qnotk = qnotk
+chrommapfile = chrommap.xls
+seed = 248597
+prefilter = qfilter_
+printNs = false
+maxlines = 8000000
+qminprint = 1
+qfiletype = fastq
+Wudiffmax = 254
+doqueryq = t
+kinfile = WuhanHu1_kpos.xls
+minposdiff = -16
+seqfile = WuhanHu1
+kandq = kandq
+qfilterheader = true
+minmatch = 50
+doquery = f
+bigoutput = f
+kcountdir = kcounts/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+kcountfile = kcounts
+qnotkmode = f
+pcountdir = pcounts/
+filetype = fasta
+right = right
+kminprint = 1
+linelimit = 500000
+record_loudness = 4
+maxmisses = 42
+minlasthit = 219
+minseqlen = 0
+minline = 0
+runmode = 1
+refdir = references/
+dorevcomp = T
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 20:03:11.332927 -0700 MST m=+21.775793441
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 20:04:52.420942 -0700 MST m=+0.000203106
+
+Status after Program Completion
+
+	integer parameters
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = false
+
+	string parameters
+filetype = fasta
+kcountdir = kcounts/
+seqdir = sequences/
+refdir = references/
+left = left
+right = right
+primeroutend = _primers.txt
+outputdir = ACmulti_output/
+seqfile = WuhanHu1
+filterdir = qfilters/
+qfiletype = fastq
+pcountdir = pcounts/
+runorient = right
+progstart = Mon Dec 28 20:04:52 2020
+seqext = fq
+kinfile = WuhanHu1_kpos.xls
+prefilter = qfilter_
+
+	file parameters
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+
+	number parameters
+
+	raw parameters
+primeroutend = _primers.txt
+printNs = false
+linelimit = 500000
+limitseqs = 50
+right = right
+kminprint = 1
+minseq = 247
+kcountfile = kcounts
+minseqlen = 0
+chrommapfile = chrommap.xls
+maxlines = 8000000
+qnotkmode = f
+outputdir = ACmulti_output/
+runmode = 1
+kcountdir = kcounts/
+left = left
+klen = 14
+qfilterheader = true
+Wudiffmax = 254
+runorient = right
+qminprint = 1
+refdir = references/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+prefilter = qfilter_
+doquery = f
+seqdir = sequences/
+qnotkdir = qnotk/
+maxfirsthit = 2
+seed = 248597
+seqfile = WuhanHu1
+dofilter = false
+qfiletype = fastq
+kinfile = WuhanHu1_kpos.xls
+loudness = 2
+minmatch = 50
+maxmisses = 42
+minposdiff = -16
+record_loudness = 4
+printmode = 1
+bigoutput = f
+qnotk = qnotk
+pcountdir = pcounts/
+filetype = fasta
+kpositionsfile = kpos.xls
+dorevcomp = T
+recordseq = 0
+seqext = fq
+doqueryq = t
+minline = 0
+filterdir = qfilters/
+kandqdir = kandq/
+kandq = kandq
+minlasthit = 219
+kmaxprint = 100000
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 20:05:14.226613 -0700 MST m=+21.806682738
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 20:05:46.631029 -0700 MST m=+0.000225918
+
+Status after Program Completion
+
+	integer parameters
+qminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+klen = 14
+kminprint = 1
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = false
+
+	string parameters
+progstart = Mon Dec 28 20:05:46 2020
+seqdir = sequences/
+left = left
+primeroutend = _primers.txt
+pcountdir = pcounts/
+prefilter = qfilter_
+runorient = right
+seqext = fq
+refdir = references/
+right = right
+filterdir = qfilters/
+kcountdir = kcounts/
+outputdir = ACmulti_output/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+filetype = fasta
+qfiletype = fastq
+
+	file parameters
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+
+	number parameters
+
+	raw parameters
+minline = 0
+limitseqs = 50
+pcountdir = pcounts/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+kcountdir = kcounts/
+maxfirsthit = 2
+printmode = 1
+loudness = 2
+left = left
+kminprint = 1
+minmatch = 50
+recordseq = 0
+seqext = fq
+filterdir = qfilters/
+kpositionsfile = kpos.xls
+qfilterheader = true
+doquery = f
+linelimit = 500000
+chrommapfile = chrommap.xls
+qminprint = 1
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotk = qnotk
+doqueryq = t
+kcountfile = kcounts
+maxmisses = 42
+minlasthit = 219
+kmaxprint = 100000
+runorient = right
+seqdir = sequences/
+qnotkdir = qnotk/
+klen = 14
+record_loudness = 4
+minseqlen = 0
+filetype = fasta
+minposdiff = -16
+outputdir = ACmulti_output/
+kandq = kandq
+maxlines = 8000000
+qfiletype = fastq
+right = right
+seed = 248597
+prefilter = qfilter_
+dorevcomp = T
+qnotkmode = f
+minseq = 252
+Wudiffmax = 254
+runmode = 1
+bigoutput = f
+kandqdir = kandq/
+primeroutend = _primers.txt
+dofilter = false
+refdir = references/
+printNs = false
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 20:06:08.227963 -0700 MST m=+21.597960316
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 20:08:38.696952 -0700 MST m=+0.000146687
+
+Status after Program Completion
+
+	integer parameters
+limitseqs = 50
+klen = 14
+kminprint = 1
+minseqlen = 0
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+qminprint = 1
+minseq = 252
+
+oolean parameters
+qnotkmode = false
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+
+	string parameters
+primeroutend = _primers.txt
+qfiletype = fastq
+prefilter = qfilter_
+seqdir = sequences/
+seqfile = WuhanHu1
+refdir = references/
+left = left
+right = right
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+runorient = right
+progstart = Mon Dec 28 20:08:38 2020
+seqext = fq
+kinfile = WuhanHu1_kpos.xls
+pcountdir = pcounts/
+filterdir = qfilters/
+filetype = fasta
+
+	file parameters
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+
+	number parameters
+
+	raw parameters
+minseq = 252
+recordseq = 0
+qfiletype = fastq
+right = right
+kandq = kandq
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+minlasthit = 219
+loudness = 2
+qnotkdir = qnotk/
+seqfile = WuhanHu1
+left = left
+bigoutput = f
+minseqlen = 0
+kmaxprint = 100000
+qnotkmode = f
+seqext = fq
+kinfile = WuhanHu1_kpos.xls
+refdir = references/
+filterdir = qfilters/
+printNs = false
+dorevcomp = T
+maxfirsthit = 2
+doqueryq = t
+seed = 248597
+seqdir = sequences/
+prefilter = qfilter_
+kminprint = 1
+runorient = right
+limitseqs = 50
+kcountdir = kcounts/
+kpositionsfile = kpos.xls
+doquery = f
+qfilterheader = true
+record_loudness = 4
+linelimit = 500000
+kandqdir = kandq/
+primeroutend = _primers.txt
+qnotk = qnotk
+Wudiffmax = 254
+minline = 0
+runmode = 1
+outputdir = ACmulti_output/
+filetype = fasta
+maxmisses = 42
+dofilter = false
+printmode = 1
+kcountfile = kcounts
+minmatch = 50
+minposdiff = -16
+qminprint = 1
+chrommapfile = chrommap.xls
+maxlines = 8000000
+pcountdir = pcounts/
+klen = 14
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 20:08:51.185248 -0700 MST m=+12.488906145
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 20:09:31.195647 -0700 MST m=+0.000245098
+
+Status after Program Completion
+
+	integer parameters
+klen = 14
+linelimit = 500000
+minline = 0
+minseq = 251
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+kmaxprint = 100000
+limitseqs = 50
+
+oolean parameters
+dofilter = false
+bigoutput = false
+qnotkmode = false
+printNs = false
+recordseq = false
+
+	string parameters
+seqdir = sequences/
+refdir = references/
+pcountdir = pcounts/
+left = left
+primeroutend = _primers.txt
+filterdir = qfilters/
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+runorient = right
+seqext = fq
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+right = right
+qfiletype = fastq
+prefilter = qfilter_
+progstart = Mon Dec 28 20:09:31 2020
+filetype = fasta
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+kcountdir = kcounts/
+klen = 14
+maxmisses = 42
+kcountfile = kcounts
+doquery = f
+seed = 248597
+kpositionsfile = kpos.xls
+minlasthit = 219
+linelimit = 500000
+runorient = right
+primeroutend = _primers.txt
+kandq = kandq
+kinfile = WuhanHu1_kpos.xls
+outputdir = ACmulti_output/
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+kminprint = 1
+seqdir = sequences/
+minseqlen = 0
+doqueryq = t
+maxlines = 8000000
+limitseqs = 50
+seqext = fq
+filterdir = qfilters/
+left = left
+runmode = 1
+bigoutput = f
+qnotkdir = qnotk/
+seqfile = WuhanHu1
+minmatch = 50
+Wudiffmax = 254
+maxfirsthit = 2
+kmaxprint = 100000
+qfiletype = fastq
+right = right
+prefilter = qfilter_
+printmode = 1
+kandqdir = kandq/
+qfilterheader = true
+record_loudness = 4
+dorevcomp = T
+qnotkmode = f
+qminprint = 1
+qnotk = qnotk
+chrommapfile = chrommap.xls
+dofilter = false
+minline = 0
+loudness = 2
+recordseq = 0
+pcountdir = pcounts/
+filetype = fasta
+minseq = 251
+refdir = references/
+printNs = false
+minposdiff = -16
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 20:09:47.429683 -0700 MST m=+16.234882519
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 20:10:33.481234 -0700 MST m=+0.000200177
+
+Status after Program Completion
+
+	integer parameters
+klen = 14
+kminprint = 1
+qminprint = 1
+minseqlen = 0
+minseq = 247
+linelimit = 500000
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+
+oolean parameters
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = false
+printNs = false
+
+	string parameters
+runorient = right
+seqext = fq
+seqdir = sequences/
+left = left
+primeroutend = _primers.txt
+qfiletype = fastq
+progstart = Mon Dec 28 20:10:33 2020
+refdir = references/
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+filterdir = qfilters/
+outputdir = ACmulti_output/
+kcountdir = kcounts/
+pcountdir = pcounts/
+prefilter = qfilter_
+right = right
+filetype = fasta
+
+	file parameters
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+kpositionsfile = kpos.xls
+
+	number parameters
+
+	raw parameters
+seqext = fq
+kminprint = 1
+maxfirsthit = 2
+recordseq = 0
+seqfile = WuhanHu1
+minlasthit = 219
+minposdiff = -16
+qnotk = qnotk
+maxmisses = 42
+runorient = right
+prefilter = qfilter_
+primeroutend = _primers.txt
+runmode = 1
+qminprint = 1
+refdir = references/
+maxlines = 8000000
+filterdir = qfilters/
+doquery = f
+dorevcomp = T
+chrommapfile = chrommap.xls
+pcountdir = pcounts/
+left = left
+record_loudness = 4
+qfiletype = fastq
+kcountdir = kcounts/
+right = right
+qfilterheader = true
+minmatch = 50
+loudness = 2
+bigoutput = f
+kinfile = WuhanHu1_kpos.xls
+klen = 14
+kpositionsfile = kpos.xls
+printNs = false
+minseq = 247
+kmaxprint = 100000
+linelimit = 500000
+seqdir = sequences/
+filetype = fasta
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+doqueryq = t
+dofilter = false
+qnotkmode = f
+kandq = kandq
+minline = 0
+kandqdir = kandq/
+kcountfile = kcounts
+Wudiffmax = 254
+printmode = 1
+seed = 248597
+outputdir = ACmulti_output/
+qnotkdir = qnotk/
+limitseqs = 50
+minseqlen = 0
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 20:10:52.626325 -0700 MST m=+19.146001424
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 20:14:34.785004 -0700 MST m=+0.000203869
+
+Status after Program Completion
+
+	integer parameters
+minseqlen = 0
+minline = 0
+kmaxprint = 100000
+limitseqs = 50
+minseq = 247
+qminprint = 1
+kminprint = 1
+linelimit = 500000
+klen = 14
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = false
+
+	string parameters
+refdir = references/
+primeroutend = _primers.txt
+kinfile = WuhanHu1_kpos.xls
+left = left
+filterdir = qfilters/
+qfiletype = fastq
+seqext = fq
+seqdir = sequences/
+seqfile = WuhanHu1
+kcountdir = kcounts/
+prefilter = qfilter_
+right = right
+outputdir = ACmulti_output/
+filetype = fasta
+progstart = Mon Dec 28 20:14:34 2020
+pcountdir = pcounts/
+runorient = right
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+kmaxprint = 100000
+bigoutput = f
+loudness = 2
+qnotkmode = f
+pcountdir = pcounts/
+kinfile = WuhanHu1_kpos.xls
+qnotk = qnotk
+qfilterheader = true
+refdir = references/
+prefilter = qfilter_
+dofilter = false
+maxlines = 8000000
+filterdir = qfilters/
+outputdir = ACmulti_output/
+kcountfile = kcounts
+Wudiffmax = 254
+qminprint = 1
+minseqlen = 0
+runorient = right
+seqdir = sequences/
+seqfile = WuhanHu1
+kandq = kandq
+seed = 248597
+seqext = fq
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+minposdiff = -16
+doqueryq = t
+recordseq = 0
+printNs = false
+dorevcomp = T
+record_loudness = 4
+qnotkdir = qnotk/
+filetype = fasta
+kpositionsfile = kpos.xls
+minseq = 247
+qfiletype = fastq
+kcountdir = kcounts/
+left = left
+primeroutend = _primers.txt
+doquery = f
+chrommapfile = chrommap.xls
+kminprint = 1
+maxmisses = 42
+minlasthit = 219
+minline = 0
+linelimit = 500000
+limitseqs = 50
+right = right
+klen = 14
+printmode = 1
+kandqdir = kandq/
+minmatch = 50
+maxfirsthit = 2
+runmode = 1
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 20:14:53.764814 -0700 MST m=+18.980717676
+
+	Running Program AnCovMulti
+	Authors: David Pollock Last Modified: December 28, 2020 
+
+The program was run on 2020-12-28 21:14:00.386536 -0700 MST m=+0.000176466
+
+Status after Program Completion
+
+	integer parameters
+kmaxprint = 100000
+limitseqs = 50
+minposdiff = -16
+klen = 14
+kminprint = 1
+linelimit = 500000
+minline = 0
+minseq = 247
+qminprint = 1
+minmatch = 50
+minlasthit = 219
+Wudiffmax = 254
+minseqlen = 0
+maxmisses = 42
+maxfirsthit = 2
+
+oolean parameters
+printNs = false
+recordseq = false
+dofilter = false
+bigoutput = false
+qnotkmode = false
+
+	string parameters
+primeroutend = _primers.txt
+filterdir = qfilters/
+outputdir = ACmulti_output/
+qfiletype = fastq
+kcountdir = kcounts/
+pcountdir = pcounts/
+seqdir = sequences/
+refdir = references/
+right = right
+filetype = fasta
+runorient = right
+progstart = Mon Dec 28 21:14:00 2020
+prefilter = qfilter_
+kinfile = WuhanHu1_kpos.xls
+seqfile = WuhanHu1
+left = left
+seqext = fq
+
+	file parameters
+kpositionsfile = kpos.xls
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+qnotkdir = qnotk/
+kandqdir = kandq/
+qnotk = qnotk
+kandq = kandq
+kcountfile = kcounts
+chrommapfile = chrommap.xls
+
+	number parameters
+
+	raw parameters
+qfiletype = fastq
+kcountdir = kcounts/
+pcountdir = pcounts/
+left = left
+minseq = 247
+refdir = references/
+runmode = 1
+maxlines = 8000000
+filterdir = qfilters/
+kcountfile = kcounts
+kpositionsfile = kpos.xls
+qfilterheader = true
+Wudiffmax = 254
+doqueryq = t
+seqext = fq
+seqdir = sequences/
+doquery = f
+minseqlen = 0
+linelimit = 500000
+seed = 248597
+outputdir = ACmulti_output/
+minmatch = 50
+maxmisses = 42
+dorevcomp = T
+chrommapfile = chrommap.xls
+printmode = 1
+kmaxprint = 100000
+right = right
+minlasthit = 219
+limitseqs = 50
+filetype = fasta
+printNs = false
+dofilter = false
+record_loudness = 4
+qnotkmode = f
+kandqdir = kandq/
+qnotkdir = qnotk/
+qnotk = qnotk
+kandq = kandq
+recordseq = 0
+runorient = right
+bigoutput = f
+seqnamefilter = filterseqs_2020-10-14_CO.xls
+prefilter = qfilter_
+primeroutend = _primers.txt
+qminprint = 1
+kminprint = 1
+minposdiff = -16
+seqfile = WuhanHu1
+kinfile = WuhanHu1_kpos.xls
+klen = 14
+loudness = 2
+minline = 0
+maxfirsthit = 2
+
+	fixed (invariant, constant) parameters
+
+The program finished 2020-12-28 21:14:19.582291 -0700 MST m=+19.196631552
