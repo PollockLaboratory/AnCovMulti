@@ -14,12 +14,14 @@ An [Example](https://github.com/PollockLaboratory/AnCovMulti/tree/main/Example) 
 
 The behaviors if you deviate from the prescribed file and folder formats are unknown.
 
-#References
+# References
 
 **SARS-CoV-2 evolution during treatment of chronic infection**. [pubmed](https://pubmed.ncbi.nlm.nih.gov/33398302/)
+
 Kemp SA, Collier DA, Datir RP, Ferreira IATM, Gayed S, Jahun A, Hosmillo M, Rees-Spear C, Mlcochova P, Lumb IU, Roberts DJ, Chandra A, Temperton N; CITIID-NIHR BioResource COVID-19 Collaboration; COVID-19 Genomics UK (COG-UK) Consortium, Sharrocks K, Blane E, Modis Y, Leigh KE, Briggs JAG, van Gils MJ, Smith KGC, Bradley JR, Smith C, Doffinger R, Ceron-Gutierrez L, Barcenas-Morales G, Pollock DD, Goldstein RA, Smielewska A, Skittrall JP, Gouliouris T, Goodfellow IG, Gkrania-Klotsas E, Illingworth CJR, McCoy LE, Gupta RK. _**Nature**_. 2021 Apr;592(7853):277-282. doi: 10.1038/s41586-021-03291-y. Epub 2021 Feb 5. PMID: 33545711 
 
 **Neutralising antibodies in Spike mediated SARS-CoV-2 adaptation**. [pubmed](https://pubmed.ncbi.nlm.nih.gov/33545711/)
+
 Kemp SA, Collier DA, Datir R, Ferreira I, Gayed S, Jahun A, Hosmillo M, Rees-Spear C, Mlcochova P, Lumb IU, Roberts DJ, Chandra A, Temperton N; CITIID-NIHR BioResource COVID-19 Collaboration; COVID-19 Genomics UK (COG-UK) Consortium, Sharrocks K, Blane E, Briggs J, van GM, Smith K, Bradley JR, Smith C, Doffinger R, Ceron-Gutierrez L, Barcenas-Morales G, Pollock DD, Goldstein RA, Smielewska A, Skittrall JP, Gouliouris T, Goodfellow IG, Gkrania-Klotsas E, Illingworth C, McCoy LE, Gupta RK. _**medRxiv**_. 2020 Dec 29:2020.12.05.20241927. doi: 10.1101/2020.12.05.20241927. Preprint. PMID: 33398302 
 
 
