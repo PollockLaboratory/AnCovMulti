@@ -3,6 +3,8 @@ Ancestral Covid Variant Analysis
 
 The current program v0.1 created Dec. 28, 2020
 
+[AnCovMulti](https://github.com/PollockLaboratory/AnCovMulti) reads in multiple sequence read files, applies stringent filters to amplicon reads, and outputs regions that do not map to a reference sequence. It is aimed to build libraries of variants using kmers as a fast mapping tool, and to allow evaluation of the context in which variants are found. 
+
 AnCovMulti is written in Golang to analyze variants in Covid amplicon sequence data. The first version was written December 28, 2020 by David Pollock with consultation from Richard Goldstein. It is currently restricted to Illumina reads. 
 Please cite Kemp et al., 2020*.
 
